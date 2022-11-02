@@ -9,6 +9,7 @@ class Nav extends React.Component {
                 <div>음식점</div>
                 <div>숙소</div>
                 <div>토론장</div>
+                <div>로그인/회원가입</div>
             </nav>
         );
     }

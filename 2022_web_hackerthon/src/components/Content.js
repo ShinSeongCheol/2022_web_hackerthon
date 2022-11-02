@@ -4,7 +4,7 @@ class Content extends React.Component {
     render() {
         return(
             <div>
-                <h2>Content</h2>
+                <h2>{this.props.name}</h2>
             </div>
         );
     }
