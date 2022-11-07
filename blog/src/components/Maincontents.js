@@ -1,11 +1,16 @@
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import ContentsCard from './ContentsCard';
+import ContentsCard from "./ContentsCard";
+import Stack from "react-bootstrap/esm/Stack";
+import CarouselFadeExample from "./CarouselFadeExample";
+import Container from "react-bootstrap/Container";
 
 function Maincontents() {
-    return(
-        <ContentsCard />
+    return (
+        <Container fluid className="text-bg-success p-3">
+            <Stack gap={2} className="col-md-12 mx-auto">
+                <CarouselFadeExample />
+                <ContentsCard />
+            </Stack>
+        </Container>
     );
 }
 

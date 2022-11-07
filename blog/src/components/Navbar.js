@@ -25,6 +25,7 @@ function BasicExample() {
                     </Nav>
                     <Nav>
                         <Nav.Link href="#action">로그인</Nav.Link>
+                        <div className='vr'></div>
                         <Nav.Link href="action">회원가입</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
