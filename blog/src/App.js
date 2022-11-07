@@ -1,8 +1,7 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Navbar from './components/Navbar';
-import Mainhome from './components/Mainhome';
-import Maincontents from './components/Maincontents';
+import Navbar from "./components/Navbar";
+import Maincontents from "./components/Maincontents";
+import Stack from "react-bootstrap/esm/Stack";
 // function App() {
 //   return (
 //     <div className="App">
@@ -27,8 +26,10 @@ import Maincontents from './components/Maincontents';
 function App() {
     return (
         <div className="App">
-          <Navbar></Navbar>
-          <Maincontents></Maincontents>
+            <Stack gap={3}>
+                <Navbar></Navbar>
+                <Maincontents></Maincontents>
+            </Stack>
         </div>
     );
 }
