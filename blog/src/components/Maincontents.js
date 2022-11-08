@@ -5,13 +5,11 @@ import Container from "react-bootstrap/Container";
 
 function Maincontents() {
     return (
-        <Container fluid className="text-bg-success p-3">
-            <Container className='text-bg-warning p-3'>
-                <Stack gap={2} className="col-md-12 mx-auto">
+        <Container fluid style={{padding:"0px"}}>
+                <Stack gap={3} className="col-md-12 mx-auto">
                     <CarouselFadeExample />
                     <ContentsCard />
                 </Stack>
-            </Container>
         </Container>
     );
 }

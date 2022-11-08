@@ -26,10 +26,8 @@ import Stack from "react-bootstrap/esm/Stack";
 function App() {
     return (
         <div className="App">
-            <Stack gap={3}>
-                <Navbar></Navbar>
-                <Maincontents></Maincontents>
-            </Stack>
+            <Navbar></Navbar>
+            <Maincontents></Maincontents>
         </div>
     );
 }
