@@ -1,7 +1,8 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Maincontents from "./components/Maincontents";
-import Stack from "react-bootstrap/esm/Stack";
+import TourPage from './components/TourPage';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
 // function App() {
 //   return (
 //     <div className="App">
@@ -26,8 +27,16 @@ import Stack from "react-bootstrap/esm/Stack";
 function App() {
     return (
         <div className="App">
-            <Navbar></Navbar>
-            <Maincontents></Maincontents>
+            <BrowserRouter>
+                <Navbar></Navbar>
+                <Routes>
+                    <Route path="/" element={<Maincontents />}></Route>
+                    <Route path="/tourList" element={<TourPage />}></Route>
+                    <Route path="/restaurant" element={<Maincontents />}></Route>
+                    <Route path="/berth" element={<Maincontents />}></Route>
+                    <Route path="/forum" element={<Maincontents />}></Route>
+                </Routes>
+            </BrowserRouter>
         </div>
     );
 }
