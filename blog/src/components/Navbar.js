@@ -1,11 +1,10 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import {Link} from 'react-router-dom';
 
 function BasicExample() {
     return (
-        <Navbar bg="light" expand="sm">
+        <Navbar bg="light" expand="sm" sticky="top">
             <Container fluid>
                 <Navbar.Brand href="#">O₂</Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />

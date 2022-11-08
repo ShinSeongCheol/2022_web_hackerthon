@@ -8,7 +8,7 @@ import Stack from "react-bootstrap/Stack";
 function ContentsCard() {
     return (
         <Stack gap={3}>
-            <Container className="text-bg-secondary p-3">
+            <Container>
                 <Row xs={1}>
                     <Col>
                     <h1>오사카 성</h1>
@@ -23,7 +23,7 @@ function ContentsCard() {
                 </Row>
             </Container>
 
-            <Container className="text-bg-secondary p-3">
+            <Container>
                 <Row xs={1} lg={2}>
                     <Col>
                         <Card style={{ width: "40rem" }}>
@@ -33,7 +33,7 @@ function ContentsCard() {
                 </Row>
             </Container>
 
-            <Container className="text-bg-secondary p-3">
+            <Container>
                 <Row xs={1} lg={2}>
                     <Col>
                         <Card style={{ width: "40rem" }}>
@@ -43,7 +43,7 @@ function ContentsCard() {
                 </Row>
             </Container>
 
-            <Container className="text-bg-secondary p-3">
+            <Container>
                 <Row xs={1} lg={2}>
                     <Col>
                         <Card style={{ width: "40rem" }}>

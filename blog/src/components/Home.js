@@ -3,7 +3,7 @@ import Stack from "react-bootstrap/esm/Stack";
 import CarouselFadeExample from "./CarouselFadeExample";
 import Container from "react-bootstrap/Container";
 
-function Maincontents() {
+function Home() {
     return (
         <Container fluid style={{padding:"0px"}}>
                 <Stack gap={3} className="col-md-12 mx-auto">
@@ -14,4 +14,4 @@ function Maincontents() {
     );
 }
 
-export default Maincontents;
+export default Home;
