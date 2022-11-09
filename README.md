@@ -1,1 +1,0 @@
-# 2022_web_hackerthon

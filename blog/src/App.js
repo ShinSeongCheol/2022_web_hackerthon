@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import TourPage from "./components/TourPage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import SimpleSlider from "./components/SimpleSilder";
 // function App() {
 //   return (
 //     <div className="App">
@@ -27,7 +28,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
     return (
         <div className="App">
-            <BrowserRouter>
+            {/* <BrowserRouter>
                 <Navbar></Navbar>
                 <Routes>
                     <Route path="/" element={<Home />}></Route>
@@ -36,7 +37,8 @@ function App() {
                     <Route path="/berth" element={<Home />}></Route>
                     <Route path="/forum" element={<Home />}></Route>
                 </Routes>
-            </BrowserRouter>
+            </BrowserRouter> */}
+            <SimpleSlider />
         </div>
     );
 }
