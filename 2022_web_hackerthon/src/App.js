@@ -71,9 +71,11 @@ function App() {
         <Route path="/food" element={<Food />} />
         <Route path="/login" element={<Login />} />
         <Route path="/Signup" element={<Signup />} />
-        <Route path="/talk" element={<Talk />} />
+        <Route path="/Osaka" element={<Osaka />} />
         <Route path="/talk" element={<Talk />} />
       </Routes>
+
+      
     </Router>
   );
 }
