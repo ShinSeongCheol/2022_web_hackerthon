@@ -14,83 +14,80 @@ import Container from "@mui/material/Container";
 import { MarginOutlined } from "@mui/icons-material";
 
 const login = () => {
-  return (
-    <Container component="main" maxWidth="xs">
-      <Box
-        sx={{
-          marginTop: 8,
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-        }}
-      >
-        <Avatar sx={{ m: 3, bgcolor: "info.dark" }}>
-          <LockOutlinedIcon />
-        </Avatar>
+    return (
+        <Container component="main" maxWidth="xs">
+            <Box
+                sx={{
+                    marginTop: 8,
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                }}
+            >
+                <Avatar sx={{ m: 3, bgcolor: "info.dark" }}>
+                    <LockOutlinedIcon />
+                </Avatar>
 
-        <Typography component="h1" variant="h5" required fullWidth >
-          Sign in
-        </Typography>
+                <Typography component="h1" variant="h5" required fullWidth>
+                    Sign in
+                </Typography>
 
-        <TextField
-          label="Email Address"
-          required
-          fullWidth
-          name="email"
-          autoComplete="email"
-          autoFocus
-          style={{
-            marginTop: "30px"
-          }}
-        />
-        <TextField
-          label="Password"
-          type="password"
-          required
-          fullWidth
-          name="password"
-          autoComplete="current-password"
-          style={{
-            marginTop: "20px"
-          }}
-        />
-        
+                <TextField
+                    label="Email Address"
+                    required
+                    fullWidth
+                    name="email"
+                    autoComplete="email"
+                    autoFocus
+                    style={{
+                        marginTop: "30px",
+                    }}
+                />
+                <TextField
+                    label="Password"
+                    type="password"
+                    required
+                    fullWidth
+                    name="password"
+                    autoComplete="current-password"
+                    style={{
+                        marginTop: "20px",
+                    }}
+                />
 
-        <FormControlLabel
-          control={<Checkbox value="remember" color="primary" />}
-          label="Remember me"
-        />
+                <FormControlLabel
+                    control={<Checkbox value="remember" color="primary" />}
+                    label="Remember me"
+                />
+            </Box>
+            <div className="d-grid">
+                <Button
+                    className="btn btn-primary"
+                    type="submit"
+                    size="lg"
+                    variant="contained"
+                    style={{
+                        marginTop: "30px",
+                    }}
+                >
+                    SIGN IN
+                </Button>
+            </div>
 
-      </Box>  
-      <div className="d-grid" >
-        <Button
-          className="btn btn-primary"
-          type="submit"
-          size="lg"
-          variant="contained"
-          style={{
-            marginTop: "30px"
-          }}
-        >
-          SIGN IN
-        </Button>
-      </div>
-
-        <Grid container>
-          <Grid item xs>
-            <Link href="#" variant="body2">
-              비밀번호 찾기
-            </Link>
-          </Grid>
-          <Grid item xs md={2}>
-            <Link href="/Signup" variant="body2">
-              회원가입
-            </Link>
-          </Grid>
-        </Grid>
-      
-    </Container>
-  );
+            <Grid container>
+                <Grid item xs>
+                    <Link href="#" variant="body2">
+                        비밀번호 찾기
+                    </Link>
+                </Grid>
+                <Grid item xs md={2}>
+                    <Link href="/Signup" variant="body2">
+                        회원가입
+                    </Link>
+                </Grid>
+            </Grid>
+        </Container>
+    );
 };
 
 export default login;

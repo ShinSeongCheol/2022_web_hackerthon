@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@mui/icons-material": "^5.10.9",
+    "@mui/material": "^5.10.13",
+    "react-material-ui-carousel": "^3.4.2",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1"
+  }
+}

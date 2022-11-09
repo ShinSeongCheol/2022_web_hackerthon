@@ -9,11 +9,7 @@ import Carousel from "react-bootstrap/Carousel";
 function Home() {
     // let [good, goodchange] = useState(0);
 
-    return (
-        <Container>
-
-        </Container>
-    );
+    return <Container></Container>;
 }
 
 export default Home;

@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Osaka = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+    return <div></div>;
+};
 
-export default Osaka
+export default Osaka;

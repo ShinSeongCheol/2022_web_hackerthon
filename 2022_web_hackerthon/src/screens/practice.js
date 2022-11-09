@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const practice = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+    return <div></div>;
+};
 
-export default practice
+export default practice;
