@@ -10,7 +10,7 @@ import Signup from "./screens/Signup";
 import Osaka from "./screens/Osaka";
 import NavBarElements from "./component/Navbar/NavBarElements";
 import Carousel from "react-bootstrap/Carousel";
-
+import Test from './screens/Test';
 
 function App() {
   return (
@@ -73,6 +73,7 @@ function App() {
         <Route path="/Signup" element={<Signup />} />
         <Route path="/Osaka" element={<Osaka />} />
         <Route path="/talk" element={<Talk />} />
+        <Route path="/test" element={<Test />} />
       </Routes>
 
       
