@@ -13,6 +13,14 @@ const Signup = () => {
     const [inputEmail, setInputId] = useState("");
     const [inputPw, setInputPw] = useState("");
 
+    const handleInputId = (e) => {
+        setInputId(e.target.value);
+    }
+
+    const handleInputPw = (e) => {
+        setInputPw(e.target.value);
+    }
+
     const onClickRegister = () => {
         console.log("click!");
         axios
@@ -56,6 +64,8 @@ const Signup = () => {
                     required
                     fullWidth
                     name="email"
+                    value={inputEmail}
+                    onChange={handleInputId}
                     autoComplete="email"
                     autoFocus
                 />
@@ -72,6 +82,8 @@ const Signup = () => {
                     required
                     fullWidth
                     name="Password"
+                    value={inputPw}
+                    onChange={handleInputPw}
                     autoComplete="current-password"
                 />
 

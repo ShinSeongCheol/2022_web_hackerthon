@@ -12,5 +12,14 @@ app.post('/checkLogin', (req,res) => {
     console.log('body:', req.body.Email, req.body.Password);
 });
 
-const port = 3001;
-app.listen(port, () => console.log(`Node.js Server is running on port ${port}...`));
+app.post('/register', (req,res) => {
+    res.send('body:');
+    console.log('body:', req.body.Email, req.body.Password);
+});
+
+app.get('/blog', (req, res) => {
+    res.send(`Welcome to Sejun's blog`);
+})
+
+const PORT = process.env.PORT || 3001;
+app.listen(PORT, () => console.log(`Node.js Server is running on port ${PORT}...`));
