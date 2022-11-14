@@ -30,7 +30,7 @@ const Login = () => {
     }
 
     useEffect(() => {
-        axios.get('/user_inform/login')
+        axios.get('/userInform/login')
         .then(res => console.log(res))
         .catch()
     })
