@@ -2,8 +2,9 @@ const express = require('express');
 const router = express.Router();
 const db = require('../config/db');
 
-router.get('/login', (req, res) => {
-    res.send({data: 'data'})
+router.post('/userInform', (req, res) => {
+    
+    res.send(`${req.body.Eamil} ${req.body.Password}`);
 });
 
 module.exports = router;

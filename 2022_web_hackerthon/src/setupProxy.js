@@ -1,16 +1,23 @@
 const { createProxyMiddleware } = require("http-proxy-middleware");
 
 module.exports = function (app) {
+    // app.use(
+    //     createProxyMiddleware("/login", {
+    //         target: "http://localhost:3001",
+    //         changeOrigin: true,
+    //     })
+    // );
+
     app.use(
-        createProxyMiddleware("/login", {
+        createProxyMiddleware("/checkLogin", {
             target: "http://localhost:3001",
             changeOrigin: true,
         })
     );
 
     app.use(
-        createProxyMiddleware("/userInform", {
-            target: "http://localhost:3001",
+        createProxyMiddleware("/register", {
+            target:"http://localhost:3001",
             changeOrigin: true,
         })
     );

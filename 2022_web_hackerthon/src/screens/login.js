@@ -14,7 +14,7 @@ import axios from 'axios';
 
 const Login = () => {
 
-    const [inputId, setInputId] = useState('');
+    const [inputEmail, setInputId] = useState('');
     const [inputPw, setInputPw] = useState('');
 
     const handleInputId = (e) => {
@@ -22,18 +22,22 @@ const Login = () => {
     }
 
     const handleInputPw = (e) => {
-        setInputId(e.target.value);
+        setInputPw(e.target.value);
     }
 
     const onClickLogin = () => {
         console.log('click login');
+        axios.post('/checkLogin', {
+            Email: inputEmail,
+            Password: inputPw
+        })
+        .then(function (response) {
+            console.log(response);
+        })
+        .catch(function(error) {
+            console.log(error);
+        });
     }
-
-    useEffect(() => {
-        axios.get('/userInform/login')
-        .then(res => console.log(res))
-        .catch()
-    })
 
     return (
         <Container component="main" maxWidth="xs" style={{height:"500px"}}>
@@ -54,13 +58,13 @@ const Login = () => {
                 </Typography>
 
                 <TextField
-                    label="Id"
+                    label="Email Address"
                     required
                     fullWidth
-                    name="inputId"
-                    value={inputId}
+                    name="email"
+                    value={inputEmail}
                     onChange={handleInputId}
-                    autoComplete="current-id"
+                    autoComplete="current-email"
                     autoFocus
                     style={{
                         marginTop: "30px",
@@ -93,6 +97,7 @@ const Login = () => {
                     style={{
                         marginTop: "30px",
                     }}
+                    onClick={onClickLogin}
                 >
                     SIGN IN
                 </Button>

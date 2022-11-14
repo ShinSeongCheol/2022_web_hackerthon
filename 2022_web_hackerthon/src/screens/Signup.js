@@ -6,8 +6,28 @@ import Avatar from "@mui/material/Avatar";
 import Typography from "@mui/material/Typography";
 import TextField from "@mui/material/TextField";
 import { Button } from "react-bootstrap";
+import { useState, useEffect } from "react";
+import axios from "axios";
 
 const Signup = () => {
+    const [inputEmail, setInputId] = useState("");
+    const [inputPw, setInputPw] = useState("");
+
+    const onClickRegister = () => {
+        console.log("click!");
+        axios
+            .post("/register", {
+                Email: inputEmail,
+                Password: inputPw,
+            })
+            .then(function (response) {
+                console.log(response);
+            })
+            .catch(function (error) {
+                console.log(error);
+            });
+    };
+
     return (
         <Container component="main" maxWidth="xs">
             <Box
@@ -81,27 +101,15 @@ const Signup = () => {
                     <input type="date" />
                 </div>
 
-                <div
-                    style={{
-                        marginTop: "20px",
-                    }}
-                >
-                    전화번호를 입력하세요
-                </div>
-
                 <Button
                     type="submit"
                     fullWidth
                     variant="contained"
                     sx={{ mt: 3, mb: 2 }}
+                    onClick={onClickRegister}
                 >
                     SIGN UP
                 </Button>
-
-                {/* <div>
-                    회원가입할 때 필요한것. 메일칸(중복확인), 비밀번호칸,
-                    비번확인칸, 생년월일, 전화번호
-                </div> */}
             </Box>
         </Container>
     );
