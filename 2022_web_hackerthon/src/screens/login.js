@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import TextField from "@mui/material/TextField";
 import Checkbox from "@mui/material/Checkbox";
 import { Button } from "react-bootstrap";
@@ -10,8 +10,31 @@ import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
 import Avatar from "@mui/material/Avatar";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
+import axios from 'axios';
 
-const login = () => {
+const Login = () => {
+
+    const [inputId, setInputId] = useState('');
+    const [inputPw, setInputPw] = useState('');
+
+    const handleInputId = (e) => {
+        setInputId(e.target.value);
+    }
+
+    const handleInputPw = (e) => {
+        setInputId(e.target.value);
+    }
+
+    const onClickLogin = () => {
+        console.log('click login');
+    }
+
+    useEffect(() => {
+        axios.get('/user_inform/login')
+        .then(res => console.log(res))
+        .catch()
+    })
+
     return (
         <Container component="main" maxWidth="xs" style={{height:"500px"}}>
             <Box
@@ -31,11 +54,13 @@ const login = () => {
                 </Typography>
 
                 <TextField
-                    label="Email Address"
+                    label="Id"
                     required
                     fullWidth
-                    name="email"
-                    autoComplete="email"
+                    name="inputId"
+                    value={inputId}
+                    onChange={handleInputId}
+                    autoComplete="current-id"
                     autoFocus
                     style={{
                         marginTop: "30px",
@@ -46,7 +71,8 @@ const login = () => {
                     type="password"
                     required
                     fullWidth
-                    name="password"
+                    value={inputPw}
+                    onChange={handleInputPw}
                     autoComplete="current-password"
                     style={{
                         marginTop: "20px",
@@ -88,4 +114,4 @@ const login = () => {
     );
 };
 
-export default login;
+export default Login;

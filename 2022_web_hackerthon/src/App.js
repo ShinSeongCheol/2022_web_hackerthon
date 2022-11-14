@@ -4,7 +4,7 @@ import Home from "./screens/Home";
 import Hotel from "./screens/hotel";
 import Place from "./screens/place";
 import Food from "./screens/food";
-import Login from "./screens/login";
+import Login from "./screens/Login";
 import Talk from "./screens/Talk";
 import Signup from "./screens/Signup";
 import Osaka from "./screens/Osaka";
@@ -12,7 +12,6 @@ import NavBarElements from "./component/Navbar/NavBarElements";
 import Carousel from "react-bootstrap/Carousel";
 import Test from "./screens/Test";
 import Footer from "./components/Footer";
-import { Container } from "react-bootstrap";
 
 function App() {
     return (
