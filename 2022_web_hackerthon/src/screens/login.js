@@ -53,14 +53,14 @@ const Login = () => {
                     <LockOutlinedIcon />
                 </Avatar>
 
-                <Typography component="h1" variant="h5" required fullWidth>
+                <Typography component="h1" variant="h5" required >
                     Sign in
                 </Typography>
 
                 <TextField
                     label="Email Address"
                     required
-                    fullWidth
+                    
                     name="email"
                     value={inputEmail}
                     onChange={handleInputId}
@@ -74,7 +74,7 @@ const Login = () => {
                     label="Password"
                     type="password"
                     required
-                    fullWidth
+                    
                     value={inputPw}
                     onChange={handleInputPw}
                     autoComplete="current-password"
