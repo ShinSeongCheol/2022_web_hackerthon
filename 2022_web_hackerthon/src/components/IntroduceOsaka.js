@@ -1,5 +1,5 @@
-import React from 'react';
-import { Container,Row,Col,Image,Button } from 'react-bootstrap';
+import React from "react";
+import { Container, Row, Col, Image, Button } from "react-bootstrap";
 
 class IntroduceOsaka extends React.Component {
     render() {
@@ -16,18 +16,18 @@ class IntroduceOsaka extends React.Component {
                 {/* <img src='image3/backgroundImage1.jpg'/> */}
                 {/*URL(image3/osaka_night.jpg)*/}
                 <Row className="justify-content-md-center">
-                    <Col md="auto" style={{marginTop:"2%"}}>
+                    <Col md="auto" style={{ marginTop: "2%" }}>
                         <h3>오사카</h3>
                     </Col>
                 </Row>
 
                 <Row className="justify-content-md-center">
-                    <Col md="auto" style={{marginTop:""}}>
+                    <Col md="auto" style={{ marginTop: "" }}>
                         <p>서일본 최대의 도시!</p>
                     </Col>
                 </Row>
 
-                <div style={{ margin: "1%", padding:"0 5%" }}>
+                <div style={{ margin: "1%", padding: "0 5%" }}>
                     <Row>
                         <Col className="col-md-6" lg={6}>
                             <div
@@ -49,18 +49,31 @@ class IntroduceOsaka extends React.Component {
                                 <Col className="ratio ratio-16x9">
                                     <Image
                                         src="image2/aburia.png"
-                                        style={{ padding: "5px", borderRadius: "20px" }}
+                                        style={{
+                                            padding: "5px",
+                                            borderRadius: "20px",
+                                        }}
                                     />
 
-                                    <div className="text-center" style={{ marginTop: "15%" }}>
-                                        <h4 style={{color:"white"}}>여행지</h4>
+                                    <div
+                                        className="text-center"
+                                        style={{ marginTop: "15%" }}
+                                    >
+                                        <h4 style={{ color: "white" }}>
+                                            여행지
+                                        </h4>
 
-                                        <Button
-                                            variant="outline-info"
-                                            style={{ width: "70%", height: "25%" }}
-                                        >
-                                            자세히보기▶
-                                        </Button>
+                                        <a href="place">
+                                            <Button
+                                                variant="outline-info"
+                                                style={{
+                                                    width: "70%",
+                                                    height: "25%",
+                                                }}
+                                            >
+                                                자세히보기▶
+                                            </Button>
+                                        </a>
                                     </div>
                                 </Col>
 
@@ -70,18 +83,29 @@ class IntroduceOsaka extends React.Component {
                                 >
                                     <Image
                                         src="image2/aburia.png"
-                                        style={{ padding: "5px", borderRadius: "20px" }}
+                                        style={{
+                                            padding: "5px",
+                                            borderRadius: "20px",
+                                        }}
                                     />
 
-                                    <div className="text-center" style={{ marginTop: "15%" }}>
+                                    <div
+                                        className="text-center"
+                                        style={{ marginTop: "15%" }}
+                                    >
                                         <h4>맛도리</h4>
 
-                                        <Button
-                                            variant="outline-info"
-                                            style={{ width: "70%", height: "25%" }}
-                                        >
-                                            자세히보기▶
-                                        </Button>
+                                        <a href="food">
+                                            <Button
+                                                variant="outline-info"
+                                                style={{
+                                                    width: "70%",
+                                                    height: "25%",
+                                                }}
+                                            >
+                                                자세히보기▶
+                                            </Button>
+                                        </a>
                                     </div>
                                 </Col>
                             </Row>
@@ -93,18 +117,29 @@ class IntroduceOsaka extends React.Component {
                                 >
                                     <Image
                                         src="image2/aburia.png"
-                                        style={{ padding: "5px", borderRadius: "20px" }}
+                                        style={{
+                                            padding: "5px",
+                                            borderRadius: "20px",
+                                        }}
                                     />
 
-                                    <div className="text-center" style={{ marginTop: "15%" }}>
+                                    <div
+                                        className="text-center"
+                                        style={{ marginTop: "15%" }}
+                                    >
                                         <h4>축제</h4>
 
-                                        <Button
-                                            variant="outline-info"
-                                            style={{ width: "70%", height: "25%" }}
-                                        >
-                                            자세히보기▶
-                                        </Button>
+                                        <a href="festival">
+                                            <Button
+                                                variant="outline-info"
+                                                style={{
+                                                    width: "70%",
+                                                    height: "25%",
+                                                }}
+                                            >
+                                                자세히보기▶
+                                            </Button>
+                                        </a>
                                     </div>
                                 </Col>
 
@@ -114,18 +149,29 @@ class IntroduceOsaka extends React.Component {
                                 >
                                     <Image
                                         src="image2/aburia.png"
-                                        style={{ padding: "5px", borderRadius: "20px" }}
+                                        style={{
+                                            padding: "5px",
+                                            borderRadius: "20px",
+                                        }}
                                     />
 
-                                    <div className="text-center" style={{ marginTop: "15%" }}>
+                                    <div
+                                        className="text-center"
+                                        style={{ marginTop: "15%" }}
+                                    >
                                         <h4 style={{ width: "100%" }}>숙소</h4>
 
-                                        <Button
-                                            variant="outline-info"
-                                            style={{ width: "70%", height: "25%" }}
-                                        >
-                                            자세히보기▶
-                                        </Button>
+                                        <a href="hotel">
+                                            <Button
+                                                variant="outline-info"
+                                                style={{
+                                                    width: "70%",
+                                                    height: "25%",
+                                                }}
+                                            >
+                                                자세히보기▶
+                                            </Button>
+                                        </a>
                                     </div>
                                 </Col>
                             </Row>
