@@ -69,7 +69,7 @@ function App() {
                 <Route path="/hotel" element={<Hotel />} />
                 <Route path="/place" element={<Place />} />
                 <Route path="/food" element={<Food />} />
-                <Route path="/login" element={} />
+                <Route path="/login" element={<Food />} />
                 <Route path="/Signup" element={<Signup />} />
                 <Route path="/Osaka" element={<Osaka />} />
                 <Route path="/talk" element={<Talk />} />
