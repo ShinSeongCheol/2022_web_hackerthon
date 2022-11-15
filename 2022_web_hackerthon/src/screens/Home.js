@@ -5,9 +5,14 @@ import { Container } from 'react-bootstrap';
 
 function Home() {
     return (
-        <Container>
+        <Container
+        fluid
+        style={{backgroundImage:"url(image3/backgroundImage1.jpg)",
+        backgroundRepeat : "no-repeat",
+        backgroundSize : "cover"
+    }} 
+        >
             <IntroduceOsaka />
-            <hr></hr>
             <IntroduceFestival />
         </Container>
     );

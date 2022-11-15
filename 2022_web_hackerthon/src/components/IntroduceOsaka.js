@@ -10,8 +10,10 @@ class IntroduceOsaka extends React.Component {
                 style={{
                     backgroundColor: "",
                     height: "",
+                    // backgroundImage: "url(/image3/backgroundImage1.jpg)"
                 }}
             >
+                {/* <img src='image3/backgroundImage1.jpg'/> */}
                 {/*URL(image3/osaka_night.jpg)*/}
                 <Row className="justify-content-md-center">
                     <Col md="auto" style={{marginTop:"2%"}}>

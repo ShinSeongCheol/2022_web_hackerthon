@@ -5,7 +5,9 @@ import { Link } from "react-router-dom";
 class IntroduceFestival extends React.Component {
     render() {
         return (
-            <Container fluid>
+            <Container fluid
+            // style={{backgroundImage:"url(image3/backgroundImage1.jpg)"}}
+            >
                 <Row className="justify-content-md-center" style={{ marginTop: "2%" }}>
                     <Col xs="2" md="2" lg="2"></Col>
                     <Col xs="auto" md="auto">
