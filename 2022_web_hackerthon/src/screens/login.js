@@ -14,109 +14,109 @@ import axios from 'axios';
 
 const Login = () => {
 
-    const [inputEmail, setInputId] = useState('');
-    const [inputPw, setInputPw] = useState('');
+    // const [inputEmail, setInputId] = useState('');
+    // const [inputPw, setInputPw] = useState('');
 
-    const handleInputId = (e) => {
-        setInputId(e.target.value);
-    }
+    // const handleInputId = (e) => {
+    //     setInputId(e.target.value);
+    // }
 
-    const handleInputPw = (e) => {
-        setInputPw(e.target.value);
-    }
+    // const handleInputPw = (e) => {
+    //     setInputPw(e.target.value);
+    // }
 
-    const onClickLogin = () => {
-        console.log('click login');
-        axios.post('/checkLogin', {
-            Email: inputEmail,
-            Password: inputPw
-        })
-        .then(function (response) {
-            console.log(response);
-        })
-        .catch(function(error) {
-            console.log(error);
-        });
-    }
+    // const onClickLogin = () => {
+    //     console.log('click login');
+    //     axios.post('/checkLogin', {
+    //         Email: inputEmail,
+    //         Password: inputPw
+    //     })
+    //     .then(function (response) {
+    //         console.log(response);
+    //     })
+    //     .catch(function(error) {
+    //         console.log(error);
+    //     });
+    // }
 
-    return (
-        <Container component="main" maxWidth="xs" style={{height:"500px"}}>
-            <Box
-                sx={{
-                    marginTop: 8,
-                    display: "flex",
-                    flexDirection: "column",
-                    alignItems: "center",
-                }}
-            >
-                <Avatar sx={{ m: 3, bgcolor: "info.dark" }}>
-                    <LockOutlinedIcon />
-                </Avatar>
+    // return (
+    //     <Container component="main" maxWidth="xs" style={{height:"500px"}}>
+    //         <Box
+    //             sx={{
+    //                 marginTop: 8,
+    //                 display: "flex",
+    //                 flexDirection: "column",
+    //                 alignItems: "center",
+    //             }}
+    //         >
+    //             <Avatar sx={{ m: 3, bgcolor: "info.dark" }}>
+    //                 <LockOutlinedIcon />
+    //             </Avatar>
 
-                <Typography component="h1" variant="h5" required >
-                    Sign in
-                </Typography>
+    //             <Typography component="h1" variant="h5" required fullWidth>
+    //                 Sign in
+    //             </Typography>
 
-                <TextField
-                    label="Email Address"
-                    required
-                    
-                    name="email"
-                    value={inputEmail}
-                    onChange={handleInputId}
-                    autoComplete="current-email"
-                    autoFocus
-                    style={{
-                        marginTop: "30px",
-                    }}
-                />
-                <TextField
-                    label="Password"
-                    type="password"
-                    required
-                    
-                    value={inputPw}
-                    onChange={handleInputPw}
-                    autoComplete="current-password"
-                    style={{
-                        marginTop: "20px",
-                    }}
-                />
+    //             <TextField
+    //                 label="Email Address"
+    //                 required
+    //                 fullWidth
+    //                 name="email"
+    //                 value={inputEmail}
+    //                 onChange={handleInputId}
+    //                 autoComplete="current-email"
+    //                 autoFocus
+    //                 style={{
+    //                     marginTop: "30px",
+    //                 }}
+    //             />
+    //             <TextField
+    //                 label="Password"
+    //                 type="password"
+    //                 required
+    //                 fullWidth
+    //                 value={inputPw}
+    //                 onChange={handleInputPw}
+    //                 autoComplete="current-password"
+    //                 style={{
+    //                     marginTop: "20px",
+    //                 }}
+    //             />
 
-                <FormControlLabel
-                    control={<Checkbox value="remember" color="primary" />}
-                    label="Remember me"
-                />
-            </Box>
-            <div className="d-grid">
-                <Button
-                    className="btn btn-primary"
-                    type="submit"
-                    size="lg"
-                    variant="contained"
-                    style={{
-                        marginTop: "30px",
-                    }}
-                    onClick={onClickLogin}
-                >
-                    SIGN IN
-                </Button>
-            </div>
+    //             <FormControlLabel
+    //                 control={<Checkbox value="remember" color="primary" />}
+    //                 label="Remember me"
+    //             />
+    //         </Box>
+    //         <div className="d-grid">
+    //             <Button
+    //                 className="btn btn-primary"
+    //                 type="submit"
+    //                 size="lg"
+    //                 variant="contained"
+    //                 style={{
+    //                     marginTop: "30px",
+    //                 }}
+    //                 onClick={onClickLogin}
+    //             >
+    //                 SIGN IN
+    //             </Button>
+    //         </div>
 
-            <Grid container>
-                <Grid item xs>
-                    <Link href="#" variant="body2">
-                        비밀번호 찾기
-                    </Link>
-                </Grid>
-                <Grid item xs md={2}>
-                    <Link href="/Signup" variant="body2">
-                        회원가입
-                    </Link>
-                </Grid>
-            </Grid>
-        </Container>
-    );
+    //         <Grid container>
+    //             <Grid item xs>
+    //                 <Link href="#" variant="body2">
+    //                     비밀번호 찾기
+    //                 </Link>
+    //             </Grid>
+    //             <Grid item xs md={2}>
+    //                 <Link href="/Signup" variant="body2">
+    //                     회원가입
+    //                 </Link>
+    //             </Grid>
+    //         </Grid>
+    //     </Container>
+    // );
 };
 
 export default Login;
