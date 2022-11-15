@@ -6,7 +6,7 @@ import Avatar from "@mui/material/Avatar";
 import Typography from "@mui/material/Typography";
 import TextField from "@mui/material/TextField";
 import { Button } from "react-bootstrap";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import axios from "axios";
 
 const Signup = () => {

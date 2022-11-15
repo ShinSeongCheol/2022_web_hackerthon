@@ -32,6 +32,7 @@ function ResponsiveAutoExample() {
                                 width="300"
                                 height="250"
                                 data-reactied="266"
+                                alt="3"
                             />
                         </Col>
                         <Col>
@@ -68,7 +69,8 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
-                                data-reactied="266>"
+                                data-reactied="266"
+                                alt="3"
                             />
                         </Col>
                         <Col>
@@ -110,11 +112,13 @@ function ResponsiveAutoExample() {
                                 src={process.env.PUBLIC_URL + "/image/yusu.jpg"}
                                 width="300"
                                 height="250"
-                                data-reactied="266>"
+                                data-reactied="266"
+                                alt="3"
                             />
                         </Col>
                         <Col>
-                            <h4
+                  
+                         <h4
                                 style={{
                                     marginTop: "10px",
                                 }}
@@ -149,7 +153,8 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
-                                data-reactied="266>"
+                                data-reactied="266"
+                                alt="3"
                             />
                         </Col>
                         <Col>
@@ -197,7 +202,8 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
-                                data-reactied="266>"
+                                data-reactied="266"
+                                alt="3"
                             />
                         </Col>
                         <Col>
@@ -235,7 +241,8 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
-                                data-reactied="266>"
+                                data-reactied="266"
+                                alt="3"
                             />
                         </Col>
                         <Col>
@@ -281,7 +288,8 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
-                                data-reactied="266>"
+                                data-reactied="266"
+                                alt="3"
                             />
                         </Col>
                         <Col>
@@ -321,7 +329,8 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
-                                data-reactied="266>"
+                                data-reactied="266"
+                                alt="3"
                             />
                         </Col>
                         <Col>
@@ -370,7 +379,8 @@ function ResponsiveAutoExample() {
                             />
                         </Col>
                         <Col>
-                            <h4
+                  
+                  alt="3          <h4
                                 style={{
                                     marginTop: "10px",
                                 }}
@@ -405,7 +415,8 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
-                                data-reactied="266>"
+                                data-reactied="266"
+                                alt="3"
                             />
                         </Col>
                         <Col>
@@ -451,7 +462,8 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
-                                data-reactied="266>"
+                                data-reactied="266"
+                                alt="3"
                             />
                         </Col>
                         <Col>
@@ -492,7 +504,8 @@ function ResponsiveAutoExample() {
                                 height="250"
                                 data-reactied="266>"
                             />
-                        </Col>
+                  
+                  alt="3      </Col>
                         <Col>
                             <h4
                                 style={{

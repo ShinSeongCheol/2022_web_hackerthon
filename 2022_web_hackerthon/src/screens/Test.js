@@ -1,7 +1,5 @@
 import axios from 'axios';
 import { Component } from 'react';
-import { Container, Row, Col } from "react-bootstrap";
-import { Image, Button } from "react-bootstrap";
 
 class Test extends Component {
     constructor(props) {

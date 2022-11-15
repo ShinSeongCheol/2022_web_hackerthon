@@ -6,7 +6,6 @@ import Place from "./screens/place";
 import Food from "./screens/food";
 import Talk from "./screens/Talk";
 import Signup from "./screens/Signup";
-import Osaka from "./screens/Osaka";
 import NavBarElements from "./component/Navbar/NavBarElements";
 import Carousel from "react-bootstrap/Carousel";
 import Test from "./screens/Test";
@@ -71,13 +70,11 @@ function App() {
                 <Route path="/food" element={<Food />} />
                 <Route path="/login" element={<Food />} />
                 <Route path="/Signup" element={<Signup />} />
-                <Route path="/Osaka" element={<Osaka />} />
                 <Route path="/talk" element={<Talk />} />
                 <Route path="/test" element={<Test />} />
             </Routes>
             
             <Footer />
-            <Test />
         </Router>
     );
 }

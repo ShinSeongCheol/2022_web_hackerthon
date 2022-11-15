@@ -32,6 +32,7 @@ function ResponsiveAutoExample() {
                                 width="300"
                                 height="250"
                                 data-reactied="266"
+                                alt="3"
                             />
                         </Col>
                         <Col>
@@ -66,7 +67,8 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
-                                data-reactied="266>"
+                                data-reactied="266"
+                                alt="3"
                             />
                         </Col>
                         <Col>
@@ -106,7 +108,8 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
-                                data-reactied="266>"
+                                data-reactied="266"
+                                alt="3"
                             />
                         </Col>
                         <Col>
@@ -140,7 +143,8 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
-                                data-reactied="266>"
+                                data-reactied="266"
+                                alt="3"
                             />
                         </Col>
                         <Col>
@@ -183,7 +187,8 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
-                                data-reactied="266>"
+                                data-reactied="266"
+                                alt="3"
                             />
                         </Col>
                         <Col>
@@ -218,7 +223,8 @@ function ResponsiveAutoExample() {
                                 src={process.env.PUBLIC_URL + "/image/img3.jpg"}
                                 width="300"
                                 height="250"
-                                data-reactied="266>"
+                                data-reactied="266"
+                                alt="3"
                             />
                         </Col>
                         <Col>
@@ -261,7 +267,8 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
-                                data-reactied="266>"
+                                data-reactied="266"
+                                alt="3"
                             />
                         </Col>
                         <Col>
@@ -297,7 +304,8 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
-                                data-reactied="266>"
+                                data-reactied="266"
+                                alt="3"
                             />
                         </Col>
                         <Col>
@@ -342,7 +350,8 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
-                                data-reactied="266>"
+                                data-reactied="266"
+                                alt="3"
                             />
                         </Col>
                         <Col>
@@ -376,7 +385,8 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
-                                data-reactied="266>"
+                                data-reactied="266"
+                                alt="3"
                             />
                         </Col>
                         <Col>
@@ -419,7 +429,8 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
-                                data-reactied="266>"
+                                data-reactied="266"
+                                alt="3"
                             />
                         </Col>
                         <Col>
@@ -455,7 +466,8 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
-                                data-reactied="266>"
+                                data-reactied="266"
+                                alt="3"
                             />
                         </Col>
                         <Col>

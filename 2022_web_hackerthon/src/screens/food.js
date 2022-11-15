@@ -28,6 +28,7 @@ function ResponsiveAutoExample() {
                                     process.env.PUBLIC_URL +
                                     "/image/gyukatsu.jpg"
                                 }
+                                alt="hi"
                                 width="300"
                                 height="250"
                                 data-reactied="266"
@@ -62,6 +63,7 @@ function ResponsiveAutoExample() {
                                     process.env.PUBLIC_URL + "/image/ramen.png"
                                 }
                                 width="300"
+                                alt="hi"
                                 height="250"
                                 data-reactied="266>"
                             />
@@ -102,6 +104,7 @@ function ResponsiveAutoExample() {
                                     process.env.PUBLIC_URL +
                                     "/image2/ichran.jpg"
                                 }
+                                alt="hi"
                                 width="300"
                                 height="250"
                                 data-reactied="266>"
@@ -141,6 +144,7 @@ function ResponsiveAutoExample() {
                                     process.env.PUBLIC_URL + "/image2/jibo.jpg"
                                 }
                                 width="300"
+                                alt="hi"
                                 height="250"
                                 data-reactied="266>"
                             />
@@ -183,6 +187,7 @@ function ResponsiveAutoExample() {
                                     process.env.PUBLIC_URL +
                                     "/image2/moeyomenske.png"
                                 }
+                                alt="hi"
                                 width="300"
                                 height="250"
                                 data-reactied="266>"
@@ -224,6 +229,7 @@ function ResponsiveAutoExample() {
                                     process.env.PUBLIC_URL +
                                     "/image2/torihachi.png"
                                 }
+                                alt="hi"
                                 width="300"
                                 height="250"
                                 data-reactied="266>"
@@ -269,6 +275,7 @@ function ResponsiveAutoExample() {
                                     process.env.PUBLIC_URL +
                                     "/image2/yahmakarayah.png"
                                 }
+                                alt="hi"
                                 width="300"
                                 height="250"
                                 data-reactied="266>"
@@ -310,6 +317,7 @@ function ResponsiveAutoExample() {
                                     process.env.PUBLIC_URL +
                                     "/image2/nakatani.png"
                                 }
+                                alt="hi"
                                 width="300"
                                 height="250"
                                 data-reactied="266>"
@@ -358,6 +366,7 @@ function ResponsiveAutoExample() {
                                     process.env.PUBLIC_URL +
                                     "/image2/heivoen.png"
                                 }
+                                alt="hi"
                                 width="300"
                                 height="250"
                                 data-reactied="266>"
@@ -397,6 +406,7 @@ function ResponsiveAutoExample() {
                                     process.env.PUBLIC_URL +
                                     "/image2/hukutaro.png"
                                 }
+                                alt="hi"
                                 width="300"
                                 height="250"
                                 data-reactied="266>"
@@ -444,6 +454,7 @@ function ResponsiveAutoExample() {
                                     process.env.PUBLIC_URL +
                                     "/image/osakasang.jpg"
                                 }
+                                alt="hi"
                                 width="300"
                                 height="250"
                                 data-reactied="266>"
@@ -481,6 +492,7 @@ function ResponsiveAutoExample() {
                                     process.env.PUBLIC_URL +
                                     "/image2/harukoma.jpg"
                                 }
+                                alt="hi"
                                 width="300"
                                 height="250"
                                 data-reactied="266>"
