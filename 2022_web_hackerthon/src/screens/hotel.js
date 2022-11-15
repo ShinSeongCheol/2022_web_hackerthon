@@ -117,8 +117,7 @@ function ResponsiveAutoExample() {
                             />
                         </Col>
                         <Col>
-                  
-                         <h4
+                            <h4
                                 style={{
                                     marginTop: "10px",
                                 }}
@@ -375,12 +374,12 @@ function ResponsiveAutoExample() {
                                 src={process.env.PUBLIC_URL + "/image/ibis.jpg"}
                                 width="300"
                                 height="250"
-                                data-reactied="266>"
+                                data-reactied="266"
+                                alt="3"
                             />
                         </Col>
                         <Col>
-                  
-                  alt="3          <h4
+                            <h4
                                 style={{
                                     marginTop: "10px",
                                 }}
@@ -502,10 +501,10 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
-                                data-reactied="266>"
+                                data-reactied="266"
+                                alt="3"
                             />
-                  
-                  alt="3      </Col>
+                        </Col>
                         <Col>
                             <h4
                                 style={{
