@@ -4,7 +4,6 @@ import Home from "./screens/Home";
 import Hotel from "./screens/hotel";
 import Place from "./screens/place";
 import Food from "./screens/food";
-import Login from "./screens/Login";
 import Talk from "./screens/Talk";
 import Signup from "./screens/Signup";
 import Osaka from "./screens/Osaka";
@@ -70,7 +69,7 @@ function App() {
                 <Route path="/hotel" element={<Hotel />} />
                 <Route path="/place" element={<Place />} />
                 <Route path="/food" element={<Food />} />
-                <Route path="/login" element={<Login />} />
+                <Route path="/login" element={} />
                 <Route path="/Signup" element={<Signup />} />
                 <Route path="/Osaka" element={<Osaka />} />
                 <Route path="/talk" element={<Talk />} />
