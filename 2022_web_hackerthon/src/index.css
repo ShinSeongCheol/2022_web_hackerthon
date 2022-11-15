@@ -1,3 +1,8 @@
+* {
+  font-family: 'Gamja Flower', cursive;
+  font-size: '2.5vh'
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

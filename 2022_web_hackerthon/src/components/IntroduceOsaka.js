@@ -51,7 +51,7 @@ class IntroduceOsaka extends React.Component {
                                     />
 
                                     <div className="text-center" style={{ marginTop: "15%" }}>
-                                        <h4>여행지</h4>
+                                        <h4 style={{color:"white"}}>여행지</h4>
 
                                         <Button
                                             variant="outline-info"
