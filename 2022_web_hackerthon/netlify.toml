@@ -1,5 +1,0 @@
-[[redirects]]
-  from = "/Signup/*"
-  to = "https://osakatourexpress.herokuapp.com/test/:splat"
-  status = 200
-  force = true

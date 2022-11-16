@@ -10,6 +10,7 @@ import { useState } from "react";
 import axios from "axios";
 
 const Signup = () => {
+
     const [inputEmail, setInputId] = useState("");
     const [inputPw, setInputPw] = useState("");
 

@@ -1,16 +1,10 @@
 const { createProxyMiddleware } = require("http-proxy-middleware");
 
 module.exports = function (app) {
-    // app.use(
-    //     createProxyMiddleware("/login", {
-    //         target: "http://localhost:3001",
-    //         changeOrigin: true,
-    //     })
-    // );
 
     app.use(
         createProxyMiddleware("/checkLogin", {
-            target: "https://osakatourexpress.herokuapp.com/",
+            target: "https://osakatourexpress.herokuapp.com/checkLogin",
             changeOrigin: true,
         })
     );
