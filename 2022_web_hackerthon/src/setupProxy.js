@@ -10,7 +10,7 @@ module.exports = function (app) {
 
     app.use(
         createProxyMiddleware("/checkLogin", {
-            target: "http://localhost:3001",
+            target: "https://osakatourexpress.herokuapp.com/",
             changeOrigin: true,
         })
     );
