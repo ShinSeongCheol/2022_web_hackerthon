@@ -25,7 +25,7 @@ const Signup = () => {
     const onClickRegister = () => {
         console.log("click!");
         axios
-            .get("https://osakatourexpress.herokuapp.com/test", {
+            .get("/api/test", {
                 Email: inputEmail,
                 Password: inputPw,
             })
