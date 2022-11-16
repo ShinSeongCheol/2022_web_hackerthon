@@ -1,5 +1,5 @@
 [[redirects]]
-  from = "/proxy/*"
+  from = "/Signup/*"
   to = "https://osakatourexpress.herokuapp.com/:splat"
   status = 200
   force = true
