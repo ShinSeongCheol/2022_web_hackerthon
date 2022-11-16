@@ -10,7 +10,7 @@ import NavBarElements from "./component/Navbar/NavBarElements";
 import Carousel from "react-bootstrap/Carousel";
 import Test from "./screens/Test";
 import Footer from "./components/Footer";
-import Login from "./screens/login";
+import Login from "./screens/Login";
 
 function App() {
     return (
