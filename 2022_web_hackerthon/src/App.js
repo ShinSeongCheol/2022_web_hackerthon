@@ -10,6 +10,7 @@ import NavBarElements from "./component/Navbar/NavBarElements";
 import Carousel from "react-bootstrap/Carousel";
 import Test from "./screens/Test";
 import Footer from "./components/Footer";
+import Login from "./screens/login";
 
 function App() {
     return (
@@ -68,7 +69,7 @@ function App() {
                 <Route path="/hotel" element={<Hotel />} />
                 <Route path="/place" element={<Place />} />
                 <Route path="/food" element={<Food />} />
-                <Route path="/login" element={<Food />} />
+                <Route path="/login" element={<Login />} />
                 <Route path="/Signup" element={<Signup />} />
                 <Route path="/talk" element={<Talk />} />
                 <Route path="/test" element={<Test />} />
