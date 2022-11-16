@@ -3,8 +3,8 @@ const { createProxyMiddleware } = require("http-proxy-middleware");
 module.exports = function (app) {
 
     app.use(
-        createProxyMiddleware("/checkLogin", {
-            target: "https://osakatourexpress.herokuapp.com/checkLoginRoutuer",
+        createProxyMiddleware("/api", {
+            target: "http://localhost:3001",
             changeOrigin: true,
         })
     );
@@ -15,11 +15,4 @@ module.exports = function (app) {
             changeOrigin: true,
         })
     );
-
-    app.use(
-        createProxyMiddleware("/api", {
-            target:"http://localhost:3001",
-            changeOrigin:true,
-        })
-    )
 };
