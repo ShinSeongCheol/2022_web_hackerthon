@@ -4,7 +4,7 @@ module.exports = function (app) {
 
     app.use(
         createProxyMiddleware("/checkLogin", {
-            target: "https://osakatourexpress.herokuapp.com/checkLogin",
+            target: "https://osakatourexpress.herokuapp.com/checkLoginRoutuer",
             changeOrigin: true,
         })
     );
