@@ -38,6 +38,7 @@ const Login = () => {
                 console.log(response.data);
                 if(response.data.isAuth){
                     console.log("로그인 성공");
+                    window.location.href="/";
                 }
             })
             .catch(function (error) {
