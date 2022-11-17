@@ -25,16 +25,15 @@ const Signup = () => {
     const onClickRegister = () => {
         console.log("click!");
         axios
-            .post("https://osakatourexpress.herokuapp.com/api/Signup", {
+            .post("https://cors-anywhere.herokuapp.com/https://osakatourexpress.herokuapp.com/api/Signup", {
                 Email: inputEmail,
                 Password: inputPw,
             })
             .then(function (response) {
                 if(response.data.success) {
                     window.location.href="/";
-                    console.log('hi');
                 } else {
-                    document.getElementById("container");
+                    document.alert("dd");
                 }
             })
             .catch(function (error) {
