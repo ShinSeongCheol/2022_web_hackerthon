@@ -1,2 +1,2 @@
 /* /index.html 200
-/api/Signup https://osakatourexpress.herokuapp.com/api/Signup:splat  200
+/api/* https://osakatourexpress.herokuapp.com/api/Signup:splat  200
