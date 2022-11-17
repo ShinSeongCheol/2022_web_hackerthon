@@ -30,11 +30,15 @@ const Login = () => {
         console.log("click!");
         console.log(`${inputEmail} ${inputPw}`);
         axios
-            .post("https://osakatourexpress.herokuapp.com/api/Login", {
+            .post("/api/Login", {
                 Email: inputEmail,
                 Password: inputPw,
             })
             .then(function (response) {
+                console.log(response.data);
+                if(response.data.isAuth){
+                    console.log("로그인 성공");
+                }
             })
             .catch(function (error) {
                 console.log(error);
