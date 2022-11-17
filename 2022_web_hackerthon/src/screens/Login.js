@@ -30,7 +30,7 @@ const Login = () => {
         console.log("click!");
         console.log(`${inputEmail} ${inputPw}`);
         axios
-            .post("/api/Login", {
+            .post("https://osakatourexpress.herokuapp.com/api/Login", {
                 Email: inputEmail,
                 Password: inputPw,
             })
