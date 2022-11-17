@@ -25,7 +25,7 @@ const Signup = () => {
     const onClickRegister = () => {
         console.log("click!");
         axios
-            .post("/api/Signup", {
+            .post("https://osakatourexpress.herokuapp.com/api/Signup", {
                 Email: inputEmail,
                 Password: inputPw,
             })
