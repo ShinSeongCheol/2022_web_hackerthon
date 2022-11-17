@@ -25,7 +25,7 @@ const Signup = () => {
     const onClickRegister = () => {
         console.log("click!");
         axios
-            .post("/api/userInfo/Signup", {
+            .post("/userInfo/Signup", {
                 Email: inputEmail,
                 Password: inputPw,
             })
