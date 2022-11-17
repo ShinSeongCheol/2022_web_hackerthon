@@ -74,7 +74,7 @@ function App() {
                 <Route path="/talk" element={<Talk />} />
                 <Route path="/test" element={<Test />} />
             </Routes>
-            
+            <a href="/api/users">이동</a>
             <Footer />
         </Router>
     );
