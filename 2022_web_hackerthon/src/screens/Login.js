@@ -10,8 +10,37 @@ import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
 import Avatar from "@mui/material/Avatar";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
+import { useState } from "react";
+import axios from "axios";
 
 const Login = () => {
+
+    const [inputEmail, setInputId] = useState("");
+    const [inputPw, setInputPw] = useState("");
+
+    const handleInputId = (e) => {
+        setInputId(e.target.value);
+    }
+
+    const handleInputPw = (e) => {
+        setInputPw(e.target.value);
+    }
+
+    const onClickLogin = () => {
+        console.log("click!");
+        console.log(`${inputEmail} ${inputPw}`);
+        axios
+            .post("/api/Login", {
+                Email: inputEmail,
+                Password: inputPw,
+            })
+            .then(function (response) {
+            })
+            .catch(function (error) {
+                console.log(error);
+            });
+    };
+
     return (
         <Container component="main" maxWidth="xs">
             <Box
@@ -35,6 +64,8 @@ const Login = () => {
                     required
                     fullWidth
                     name="email"
+                    value={inputEmail}
+                    onChange={handleInputId}
                     autoComplete="email"
                     autoFocus
                     style={{
@@ -47,6 +78,8 @@ const Login = () => {
                     required
                     fullWidth
                     name="password"
+                    value={inputPw}
+                    onChange={handleInputPw}
                     autoComplete="current-password"
                     style={{
                         marginTop: "20px",
@@ -67,6 +100,7 @@ const Login = () => {
                     style={{
                         marginTop: "30px",
                     }}
+                    onClick={onClickLogin}
                 >
                     SIGN IN
                 </Button>

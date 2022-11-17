@@ -30,7 +30,12 @@ const Signup = () => {
                 Password: inputPw,
             })
             .then(function (response) {
-                console.log(response);
+                if(response.data.success) {
+                    window.location.href="/";
+                    console.log('hi');
+                } else {
+                    document.getElementById("container");
+                }
             })
             .catch(function (error) {
                 console.log(error);
@@ -38,7 +43,7 @@ const Signup = () => {
     };
 
     return (
-        <Container component="main" maxWidth="xs">
+        <Container id="container" component="main" maxWidth="xs">
             <Box
                 sx={{
                     marginTop: 8,
