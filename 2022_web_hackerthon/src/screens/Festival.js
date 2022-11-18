@@ -2,7 +2,6 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Carousel from "react-bootstrap/Carousel";
 import { Link } from "react-router-dom";
 
 function ResponsiveAutoExample() {
@@ -40,6 +39,7 @@ function ResponsiveAutoExample() {
               width="300"
               height="250"
               data-reactied="266"
+              alt="omiztori"
             />
           </Link>
         </Col>
@@ -75,6 +75,7 @@ function ResponsiveAutoExample() {
             width="300"
             height="250"
             data-reactied="266>"
+            alt="Sacurano"
             />
             </Link>
         </Col>
@@ -117,6 +118,7 @@ function ResponsiveAutoExample() {
             width="300"
             height="250"
             data-reactied="266>"
+            alt="Smiyorimachuri"
             />
             </Link>
         </Col>
@@ -154,6 +156,7 @@ function ResponsiveAutoExample() {
             width="300"
             height="250"
             data-reactied="266>"
+            alt="chrismas"
             />
             </Link>
         </Col>
