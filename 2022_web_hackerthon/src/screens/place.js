@@ -51,7 +51,7 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
-                                alt="image"
+                                alt="place"
                                 data-reactied="266"
                                 />
                                 </Link>
@@ -98,7 +98,7 @@ function ResponsiveAutoExample() {
                                 width="300"
                                 height="250"
                                 data-reactied="266>"
-                                alt="image"
+                                alt="place"
                                 />
                                 </Link>
                         </Col>
@@ -142,7 +142,7 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
-                                alt="image"
+                                alt="place"
                                 data-reactied="266>"
                                 />
                                 </Link>
@@ -180,7 +180,7 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
-                                alt="image"
+                                alt="place"
                                 data-reactied="266>"
                                 />
                                 </Link>
@@ -228,7 +228,7 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
-                                alt="image"
+                                alt="place"
                                 data-reactied="266>"
                                 />
                                 </Link>
@@ -270,9 +270,9 @@ function ResponsiveAutoExample() {
                                 data-reactied="266>"
                                 />
                                 </Link>
-                                alt="image"
+                                alt="place"
                         </Col>
-                        alt="image"
+                        alt="place"
                         <Col>
                         <Link to="/jivri" style={{textDecoration: 'none', color: 'black' }} >
                             <h4
@@ -314,7 +314,7 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
-                                alt="image"
+                                alt="place"
                                 data-reactied="266>"
                                 />
                                 </Link>
@@ -356,7 +356,7 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
-                                alt="image"
+                                alt="place"
                                 data-reactied="266>"
                                 />
                                 </Link>
@@ -405,7 +405,7 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
-                                alt="image"
+                                alt="place"
                                 data-reactied="266>"
                                 />
                                 </Link>
@@ -445,7 +445,7 @@ function ResponsiveAutoExample() {
                                 width="300"
                                 height="250"
                                 data-reactied="266>"
-                                alt="image"
+                                alt="place"
                                 />
                                 </Link>
                         </Col>
@@ -491,7 +491,7 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
-                                alt="image"
+                                alt="place"
                                 data-reactied="266>"
                                 />
                                 </Link>
@@ -532,7 +532,7 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
-                                alt="image"
+                                alt="place"
                                 data-reactied="266>"
                                 />
                                 </Link>

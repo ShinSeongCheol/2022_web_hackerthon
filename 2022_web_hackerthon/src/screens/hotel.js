@@ -44,7 +44,7 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
-                                alt="image"
+                                alt="hotel"
                                 data-reactied="266"
                                 />
                                 </Link>
@@ -83,7 +83,7 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
-                                alt="image"
+                                alt="hotel"
                                 data-reactied="266>"
                             />
                         </Col>
@@ -128,7 +128,7 @@ function ResponsiveAutoExample() {
                                 data-reactied="266>"
                             />
                         </Col>
-                        alt="image"
+                        alt="hotel"
                         <Col>
                             <h4
                                 style={{
@@ -164,7 +164,7 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
-                                alt="image"
+                                alt="hotel"
                                 data-reactied="266>"
                             />
                         </Col>
@@ -213,7 +213,7 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
-                                alt="image"
+                                alt="hotel"
                                 data-reactied="266>"
                                 />
                                 </Link>
@@ -255,7 +255,7 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
-                                alt="image"
+                                alt="hotel"
                                 data-reactied="266>"
                             />
                         </Col>
@@ -301,7 +301,7 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
-                                alt="image"
+                                alt="hotel"
                                 data-reactied="266>"
                             />
                         </Col>
@@ -341,7 +341,7 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
-                                alt="image"
+                                alt="hotel"
                                 data-reactied="266>"
                             />
                         </Col>
@@ -390,7 +390,7 @@ function ResponsiveAutoExample() {
                                 data-reactied="266>"
                                 />
                                 </Link>
-                                alt="image"
+                                alt="hotel"
                         </Col>
                         <Col>
                         <Link to="/ivis" style={{textDecoration: 'none', color: 'black' }} >
@@ -429,7 +429,7 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
-                                alt="image"
+                                alt="hotel"
                                 data-reactied="266>"
                             />
                         </Col>
@@ -475,7 +475,7 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
-                                alt="image"
+                                alt="hotel"
                                 data-reactied="266>"
                             />
                         </Col>
@@ -515,7 +515,7 @@ function ResponsiveAutoExample() {
                                 width="300"
                                 height="250"
                                 data-reactied="266>"
-                                alt="image"
+                                alt="hotel"
                             />
                         </Col>
                         <Col>
