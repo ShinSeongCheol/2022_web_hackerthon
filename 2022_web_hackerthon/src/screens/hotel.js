@@ -125,10 +125,11 @@ function ResponsiveAutoExample() {
                                 src={process.env.PUBLIC_URL + "/image/yusu.jpg"}
                                 width="300"
                                 height="250"
+                                alt="hotel"
                                 data-reactied="266>"
                             />
                         </Col>
-                        alt="hotel"
+                        
                         <Col>
                             <h4
                                 style={{
@@ -387,10 +388,11 @@ function ResponsiveAutoExample() {
                                 src={process.env.PUBLIC_URL + "/image/ibis.jpg"}
                                 width="300"
                                 height="250"
+                                alt="hotel"
                                 data-reactied="266>"
                                 />
                                 </Link>
-                                alt="hotel"
+                                
                         </Col>
                         <Col>
                         <Link to="/ivis" style={{textDecoration: 'none', color: 'black' }} >
