@@ -51,6 +51,7 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
+                                alt="image"
                                 data-reactied="266"
                                 />
                                 </Link>
@@ -97,6 +98,7 @@ function ResponsiveAutoExample() {
                                 width="300"
                                 height="250"
                                 data-reactied="266>"
+                                alt="image"
                                 />
                                 </Link>
                         </Col>
@@ -140,6 +142,7 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
+                                alt="image"
                                 data-reactied="266>"
                                 />
                                 </Link>
@@ -177,6 +180,7 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
+                                alt="image"
                                 data-reactied="266>"
                                 />
                                 </Link>
@@ -224,6 +228,7 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
+                                alt="image"
                                 data-reactied="266>"
                                 />
                                 </Link>
@@ -265,7 +270,9 @@ function ResponsiveAutoExample() {
                                 data-reactied="266>"
                                 />
                                 </Link>
+                                alt="image"
                         </Col>
+                        alt="image"
                         <Col>
                         <Link to="/jivri" style={{textDecoration: 'none', color: 'black' }} >
                             <h4
@@ -307,6 +314,7 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
+                                alt="image"
                                 data-reactied="266>"
                                 />
                                 </Link>
@@ -348,6 +356,7 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
+                                alt="image"
                                 data-reactied="266>"
                                 />
                                 </Link>
@@ -396,6 +405,7 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
+                                alt="image"
                                 data-reactied="266>"
                                 />
                                 </Link>
@@ -435,6 +445,7 @@ function ResponsiveAutoExample() {
                                 width="300"
                                 height="250"
                                 data-reactied="266>"
+                                alt="image"
                                 />
                                 </Link>
                         </Col>
@@ -480,6 +491,7 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
+                                alt="image"
                                 data-reactied="266>"
                                 />
                                 </Link>
@@ -520,6 +532,7 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
+                                alt="image"
                                 data-reactied="266>"
                                 />
                                 </Link>

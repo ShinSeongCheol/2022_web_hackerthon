@@ -34,6 +34,7 @@ function Gumon() {
             width="100%"
             height="90%"
             data-reactied="266"
+            alt="image"
             style={{
               marginTop: "40px",
             }}
@@ -117,6 +118,7 @@ function Gumon() {
               height="450"
               allowfullscreen=""
               loading="lazy"
+              title="map"
               referrerpolicy="no-referrer-when-downgrade"
               style={{
                 paddingBottom: "50px", paddingTop: "20px"
@@ -139,6 +141,7 @@ function Gumon() {
               width="300"
               height="250"
               data-reactied="266>"
+              alt="image"
               />
               <div className="banner-txt"></div>
           </Col>
@@ -148,6 +151,7 @@ function Gumon() {
               width="300"
               height="250"
               data-reactied="266>"
+              alt="image"
             />
           </Col>
 
@@ -157,6 +161,7 @@ function Gumon() {
               width="300"
               height="250"
               data-reactied="266>"
+              alt="image"
             />
           </Col>
           <Col>
@@ -165,6 +170,7 @@ function Gumon() {
               width="300"
               height="250"
               data-reactied="266>"
+              alt="image"
             />
           </Col>
         </Row>
@@ -191,6 +197,7 @@ function Gumon() {
               width="300"
               height="250"
               data-reactied="266>"
+              alt="image"
             />
           </Col>
           <Col>
@@ -199,6 +206,7 @@ function Gumon() {
               width="300"
               height="250"
               data-reactied="266>"
+              alt="image"
             />
           </Col>
 
@@ -208,6 +216,7 @@ function Gumon() {
               width="300"
               height="250"
               data-reactied="266>"
+              alt="image"
             />
           </Col>
           <Col>
@@ -216,6 +225,7 @@ function Gumon() {
               width="300"
               height="250"
               data-reactied="266>"
+              alt="image"
             />
           </Col>
         </Row>

@@ -2,7 +2,6 @@ import React from "react";
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { FaStar } from "react-icons/fa";
-import Carousel from "react-bootstrap/Carousel";
 import "./festival.css";
 
 const colors = {
@@ -35,6 +34,7 @@ function Sacurano() {
             width="100%"
             height="90%"
             data-reactied="266"
+            alt="Sacurano"
             style={{
               marginTop: "40px",
             }}
@@ -113,6 +113,7 @@ function Sacurano() {
               height="450"
               allowfullscreen=""
               loading="lazy"
+              title="map"
               referrerpolicy="no-referrer-when-downgrade"
               style={{
                 paddingBottom: "50px",

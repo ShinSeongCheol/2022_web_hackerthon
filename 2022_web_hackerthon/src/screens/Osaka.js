@@ -1,4 +1,3 @@
-import { Scale } from "@mui/icons-material";
 // import "./osaka.css";
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
@@ -42,6 +41,7 @@ const Osaka = () => {
             width="90%"
             height="350px"
             data-reactied="266"
+            alt="background1"
             style={{
               borderRadius: "10px 100px / 120px",
               objectFit:"cover"
@@ -56,6 +56,7 @@ const Osaka = () => {
             width="90%"
             height="300px"
             data-reactied="266"
+            alt="background3"
             style={{
               borderRadius: "10px 100px / 120px",
               objectFit:"cover"  }}
@@ -96,6 +97,7 @@ const Osaka = () => {
             width="90%"
             height="70%"
             data-reactied="266"
+            alt="background4"
             style={{ borderRadius: "10px 100px / 120px" }}
           />
         </Col>
@@ -106,6 +108,7 @@ const Osaka = () => {
             src={process.env.PUBLIC_URL + "/image2/back.jpg"}
             width="440px"
             height="70%"
+            alt="back"
             style={{
               borderRadius: "10px 100px / 120px",
               objectFit:"cover"
@@ -148,6 +151,7 @@ const Osaka = () => {
             width="70%"
             height="70%"
             data-reactied="266"
+            alt="pretty"
             style={{
               borderRadius: "10px 100px / 120px"
             }}
