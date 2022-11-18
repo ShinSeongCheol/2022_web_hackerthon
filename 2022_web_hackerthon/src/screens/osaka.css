@@ -1,0 +1,10 @@
+/* .hi{
+  font-size: 2rem;
+} */
+@media screen and (max-width: 700px)  {
+  Container{
+    padding-left: "50px";
+    padding-right: "50px";
+  }
+  
+}
