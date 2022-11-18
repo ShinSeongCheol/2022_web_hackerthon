@@ -34,7 +34,7 @@ function Gumon() {
             width="100%"
             height="90%"
             data-reactied="266"
-            alt="image"
+            alt="gumon"
             style={{
               marginTop: "40px",
             }}
@@ -141,7 +141,7 @@ function Gumon() {
               width="300"
               height="250"
               data-reactied="266>"
-              alt="image"
+              alt="gumon"
               />
               <div className="banner-txt"></div>
           </Col>
@@ -151,7 +151,7 @@ function Gumon() {
               width="300"
               height="250"
               data-reactied="266>"
-              alt="image"
+              alt="gumon"
             />
           </Col>
 
@@ -161,7 +161,7 @@ function Gumon() {
               width="300"
               height="250"
               data-reactied="266>"
-              alt="image"
+              alt="gumon"
             />
           </Col>
           <Col>
@@ -170,7 +170,7 @@ function Gumon() {
               width="300"
               height="250"
               data-reactied="266>"
-              alt="image"
+              alt="gumon"
             />
           </Col>
         </Row>
@@ -197,7 +197,7 @@ function Gumon() {
               width="300"
               height="250"
               data-reactied="266>"
-              alt="image"
+              alt="gumon"
             />
           </Col>
           <Col>
@@ -206,7 +206,7 @@ function Gumon() {
               width="300"
               height="250"
               data-reactied="266>"
-              alt="image"
+              alt="gumon"
             />
           </Col>
 
@@ -216,7 +216,7 @@ function Gumon() {
               width="300"
               height="250"
               data-reactied="266>"
-              alt="image"
+              alt="gumon"
             />
           </Col>
           <Col>
@@ -225,7 +225,7 @@ function Gumon() {
               width="300"
               height="250"
               data-reactied="266>"
-              alt="image"
+              alt="gumon"
             />
           </Col>
         </Row>

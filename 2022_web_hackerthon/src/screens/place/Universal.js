@@ -33,7 +33,7 @@ function Universal() {
             src={process.env.PUBLIC_URL + "image/studio.jpg"}
             width="100%"
             height="90%"
-            alt="image"
+            alt="Universal"
             data-reactied="266"
             style={{
               marginTop: "40px",
@@ -135,7 +135,7 @@ function Universal() {
               src={process.env.PUBLIC_URL + "/image/skybuilding.png"}
               width="300"
               height="250"
-              alt="image"
+              alt="Universal"
               data-reactied="266>"
               />
               <div className="banner-txt"></div>
@@ -145,7 +145,7 @@ function Universal() {
               src={process.env.PUBLIC_URL + "/image/img3.jpg"}
               width="300"
               height="250"
-              alt="image"
+              alt="Universal"
               data-reactied="266>"
             />
           </Col>
@@ -155,7 +155,7 @@ function Universal() {
               src={process.env.PUBLIC_URL + "/image/doyokuni.jpg"}
               width="300"
               height="250"
-              alt="image"
+              alt="Universal"
               data-reactied="266>"
             />
           </Col>
@@ -164,7 +164,7 @@ function Universal() {
               src={process.env.PUBLIC_URL + "/image/ssiyositai.jpg"}
               width="300"
               height="250"
-              alt="image"
+              alt="Universal"
               data-reactied="266>"
             />
           </Col>
@@ -191,7 +191,7 @@ function Universal() {
               src={process.env.PUBLIC_URL + "/image/harukas.png"}
               width="300"
               height="250"
-              alt="image"
+              alt="Universal"
               data-reactied="266>"
             />
           </Col>
@@ -200,7 +200,7 @@ function Universal() {
               src={process.env.PUBLIC_URL + "/image/gumon.jpg"}
               width="300"
               height="250"
-              alt="image"
+              alt="Universal"
               data-reactied="266>"
             />
           </Col>
@@ -210,7 +210,7 @@ function Universal() {
               src={process.env.PUBLIC_URL + "/image/dendentaun.jpg"}
               width="300"
               height="250"
-              alt="image"
+              alt="Universal"
               data-reactied="266>"
             />
           </Col>
@@ -219,7 +219,7 @@ function Universal() {
               src={process.env.PUBLIC_URL + "/image/ssiyositai.jpg"}
               width="300"
               height="250"
-              alt="image"
+              alt="Universal"
               data-reactied="266>"
             />
           </Col>

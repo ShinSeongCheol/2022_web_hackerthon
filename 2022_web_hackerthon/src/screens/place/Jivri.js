@@ -33,7 +33,7 @@ function Jivri() {
             src={process.env.PUBLIC_URL + "/image/img3.jpg"}
             width="100%"
             height="90%"
-            alt="image"
+            alt="Jivri"
             data-reactied="266"
             style={{
               marginTop: "40px",
@@ -137,7 +137,7 @@ function Jivri() {
               src={process.env.PUBLIC_URL + "/image/skybuilding.png"}
               width="300"
               height="250"
-              alt="image"
+              alt="Jivri"
               data-reactied="266>"
               />
               <div className="banner-txt"></div>
@@ -147,7 +147,7 @@ function Jivri() {
               src={process.env.PUBLIC_URL + "/image/sitennoji.jpg"}
               width="300"
               height="250"
-              alt="image"
+              alt="Jivri"
               data-reactied="266>"
             />
           </Col>
@@ -157,7 +157,7 @@ function Jivri() {
               src={process.env.PUBLIC_URL + "/image/doyokuni.jpg"}
               width="300"
               height="250"
-              alt="image"
+              alt="Jivri"
               data-reactied="266>"
             />
           </Col>
@@ -166,7 +166,7 @@ function Jivri() {
               src={process.env.PUBLIC_URL + "/image/gaiukan.jpg"}
               width="300"
               height="250"
-              alt="image"
+              alt="Jivri"
               data-reactied="266>"
             />
           </Col>
@@ -193,7 +193,7 @@ function Jivri() {
               src={process.env.PUBLIC_URL + "/image/harukas.png"}
               width="300"
               height="250"
-              alt="image"
+              alt="Jivri"
               data-reactied="266>"
             />
           </Col>
@@ -202,7 +202,7 @@ function Jivri() {
               src={process.env.PUBLIC_URL + "/image/gumon.jpg"}
               width="300"
               height="250"
-              alt="image"
+              alt="Jivri"
               data-reactied="266>"
             />
           </Col>
@@ -212,7 +212,7 @@ function Jivri() {
               src={process.env.PUBLIC_URL + "/image/dendentaun.jpg"}
               width="300"
               height="250"
-              alt="image"
+              alt="Jivri"
               data-reactied="266>"
             />
           </Col>
@@ -221,7 +221,7 @@ function Jivri() {
               src={process.env.PUBLIC_URL + "/image/ssiyositai.jpg"}
               width="300"
               height="250"
-              alt="image"
+              alt="Jivri"
               data-reactied="266>"
             />
           </Col>

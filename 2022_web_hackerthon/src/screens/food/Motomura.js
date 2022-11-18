@@ -33,7 +33,7 @@ function Moeyomenske() {
             src={process.env.PUBLIC_URL + "/image/gyukatsu.jpg"}
             width="100%"
             height="90%"
-            alt="image"
+            alt="moto"
             data-reactied="266"
             style={{
               marginTop: "40px",
@@ -132,7 +132,7 @@ function Moeyomenske() {
                 src={process.env.PUBLIC_URL + "image2/ichran.jpg"}
                 width="300"
                 height="250"
-                alt="image"
+                alt="moto"
                 data-reactied="266>"
               />
               <div className="banner-txt"></div>
@@ -142,7 +142,7 @@ function Moeyomenske() {
                 src={process.env.PUBLIC_URL + "/image/chibo.jpg"}
                 width="300"
                 height="250"
-                alt="image"
+                alt="moto"
                 data-reactied="266>"
               />
             </Col>
@@ -152,7 +152,7 @@ function Moeyomenske() {
                 src={process.env.PUBLIC_URL + "/image/moeyomenske.jpg"}
                 width="300"
                 height="250"
-                alt="image"
+                alt="moto"
                 data-reactied="266>"
               />
             </Col>
@@ -161,7 +161,7 @@ function Moeyomenske() {
                 src={process.env.PUBLIC_URL + "/image2/torihachi.png"}
                 width="300"
                 height="250"
-                alt="image"
+                alt="moto"
                 data-reactied="266>"
               />
             </Col>
@@ -186,7 +186,7 @@ function Moeyomenske() {
                 src={process.env.PUBLIC_URL + "/image2/yahmakarayah.png"}
                 width="300"
                 height="250"
-                alt="image"
+                alt="moto"
                 data-reactied="266>"
               />
             </Col>
@@ -195,7 +195,7 @@ function Moeyomenske() {
                 src={process.env.PUBLIC_URL + "/image2/heivoen.png"}
                 width="300"
                 height="250"
-                alt="image"
+                alt="moto"
                 data-reactied="266>"
               />
             </Col>
@@ -205,7 +205,7 @@ function Moeyomenske() {
                 src={process.env.PUBLIC_URL + "/image2/nakatani.png"}
                 width="300"
                 height="250"
-                alt="image"
+                alt="moto"
                 data-reactied="266>"
               />
             </Col>
@@ -214,7 +214,7 @@ function Moeyomenske() {
                 src={process.env.PUBLIC_URL + "/image2/hukutaro.png"}
                 width="300"
                 height="250"
-                alt="image"
+                alt="moto"
                 data-reactied="266>"
               />
             </Col>
