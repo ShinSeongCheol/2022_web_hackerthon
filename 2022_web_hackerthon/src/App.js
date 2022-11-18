@@ -127,7 +127,7 @@ function App() {
                 <Route path="/Smiyorimachuri" element={<Smiyorimachuri />} />
                 <Route path="/Universalport" element={<Universalport />} />
                 {/* <Route path="/talk" element={<Talk />} /> */}
-                <Route path="/test" element={<Test />} />
+
                 <Route path="/Ivis" element={<Ivis />} />
             </Routes>
             <Footer />
