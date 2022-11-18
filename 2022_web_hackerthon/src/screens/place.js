@@ -267,10 +267,11 @@ function ResponsiveAutoExample() {
                                 src={process.env.PUBLIC_URL + "/image/img3.jpg"}
                                 width="300"
                                 height="250"
+                                alt="place"
                                 data-reactied="266>"
                                 />
                                 </Link>
-                                alt="place"
+                                
                         </Col>
                         alt="place"
                         <Col>
