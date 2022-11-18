@@ -4,8 +4,6 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { Carousel } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import styled from "styled-components";
-import { useState, useEffect } from "react";
 
 function ResponsiveAutoExample() {
     return (
@@ -46,6 +44,7 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
+                                alt="gyukatsu"
                                 data-reactied="266"
                                 />
                                 </Link>
@@ -82,6 +81,7 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
+                                alt="ramen"
                                 data-reactied="266>"
                             />
                         </Col>
@@ -123,6 +123,7 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
+                                alt="ichran"
                                 data-reactied="266>"
                             />
                         </Col>
@@ -160,6 +161,7 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
+                                alt="jibo"
                                 data-reactied="266>"
                             />
                         </Col>
@@ -203,6 +205,7 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
+                                alt="moeyomenske"
                                 data-reactied="266>"
                             />
                         </Col>
@@ -244,6 +247,7 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
+                                alt="torihachi"
                                 data-reactied="266>"
                             />
                         </Col>
@@ -288,6 +292,7 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
+                                alt="yahmakarayah"
                                 data-reactied="266>"
                             />
                         </Col>
@@ -328,6 +333,7 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
+                                alt="nakatani"
                                 data-reactied="266>"
                             />
                         </Col>
@@ -376,6 +382,7 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
+                                alt="heivoen"
                                 data-reactied="266>"
                                 />
                                 </Link>
@@ -417,6 +424,7 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
+                                alt="hukutaro"
                                 data-reactied="266>"
                             />
                         </Col>
@@ -463,6 +471,7 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
+                                alt="osakasang"
                                 data-reactied="266>"
                             />
                         </Col>
@@ -500,6 +509,7 @@ function ResponsiveAutoExample() {
                                 }
                                 width="300"
                                 height="250"
+                                alt="harukoma"
                                 data-reactied="266>"
                             />
                         </Col>

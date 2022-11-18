@@ -34,6 +34,7 @@ function Heijoen() {
             width="100%"
             height="90%"
             data-reactied="266"
+            alt="heivoen"
             style={{
               marginTop: "40px",
             }}
@@ -108,6 +109,7 @@ function Heijoen() {
               height="450"
               allowfullscreen=""
               loading="lazy"
+              title="map"
               referrerpolicy="no-referrer-when-downgrade"
               style={{
                 paddingBottom: "50px",
@@ -130,6 +132,7 @@ function Heijoen() {
                 src={process.env.PUBLIC_URL + "image2/ichran.jpg"}
                 width="300"
                 height="250"
+                alt="ichran"
                 data-reactied="266>"
               />
               <div className="banner-txt"></div>
@@ -139,6 +142,7 @@ function Heijoen() {
                 src={process.env.PUBLIC_URL + "/image/chibo.jpg"}
                 width="300"
                 height="250"
+                alt="chibo"
                 data-reactied="266>"
               />
             </Col>
@@ -148,6 +152,7 @@ function Heijoen() {
                 src={process.env.PUBLIC_URL + "/image/takoyaki.webp"}
                 width="300"
                 height="250"
+                alt="takoyaki"
                 data-reactied="266>"
               />
             </Col>
@@ -156,6 +161,7 @@ function Heijoen() {
                 src={process.env.PUBLIC_URL + "/image2/torihachi.png"}
                 width="300"
                 height="250"
+                alt="torihachi"
                 data-reactied="266>"
               />
             </Col>
@@ -180,6 +186,7 @@ function Heijoen() {
                 src={process.env.PUBLIC_URL + "/image2/yahmakarayah.png"}
                 width="300"
                 height="250"
+                alt="yahmakarayah"
                 data-reactied="266>"
               />
             </Col>
@@ -188,6 +195,7 @@ function Heijoen() {
                 src={process.env.PUBLIC_URL + "/image/torihachi.jpg"}
                 width="300"
                 height="250"
+                alt="torihachi"
                 data-reactied="266>"
               />
             </Col>
@@ -197,6 +205,7 @@ function Heijoen() {
                 src={process.env.PUBLIC_URL + "/image/ramen.png"}
                 width="300"
                 height="250"
+                alt="ramen"
                 data-reactied="266>"
               />
             </Col>
@@ -205,6 +214,7 @@ function Heijoen() {
                 src={process.env.PUBLIC_URL + "/image2/hukutaro.png"}
                 width="300"
                 height="250"
+                alt="hukutaro"
                 data-reactied="266>"
               />
             </Col>

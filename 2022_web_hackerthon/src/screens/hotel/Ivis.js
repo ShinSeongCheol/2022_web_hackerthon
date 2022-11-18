@@ -33,6 +33,7 @@ function Ivis() {
             src={process.env.PUBLIC_URL + "/image/ibis.jpg"}
             width="100%"
             height="90%"
+            alt="image"
             data-reactied="266"
             style={{
               marginTop: "40px",
@@ -108,6 +109,7 @@ function Ivis() {
               height="450"
               allowfullscreen=""
               loading="lazy"
+              title="map"
               referrerpolicy="no-referrer-when-downgrade"
               style={{
                 paddingBottom: "50px",
@@ -130,6 +132,7 @@ function Ivis() {
                 src={process.env.PUBLIC_URL + "image/yusu.jpg"}
                 width="300"
                 height="250"
+                alt="image"
                 data-reactied="266>"
               />
               <div className="banner-txt"></div>
@@ -139,6 +142,7 @@ function Ivis() {
                 src={process.env.PUBLIC_URL + "/image/ganeyoshi.jpg"}
                 width="300"
                 height="250"
+                alt="image"
                 data-reactied="266>"
               />
             </Col>
@@ -148,6 +152,7 @@ function Ivis() {
                 src={process.env.PUBLIC_URL + "/image2/mocci.jpg"}
                 width="300"
                 height="250"
+                alt="image"
                 data-reactied="266>"
               />
             </Col>
@@ -156,6 +161,7 @@ function Ivis() {
                 src={process.env.PUBLIC_URL + "/image/sinsibasi.jpg"}
                 width="300"
                 height="250"
+                alt="image"
                 data-reactied="266>"
               />
             </Col>
@@ -180,6 +186,7 @@ function Ivis() {
                 src={process.env.PUBLIC_URL + "image/ganeyoshi.jpg"}
                 width="300"
                 height="250"
+                alt="image"
                 data-reactied="266>"
               />
             </Col>
@@ -188,6 +195,7 @@ function Ivis() {
                 src={process.env.PUBLIC_URL + "image/nanbaoriental.jpg"}
                 width="300"
                 height="250"
+                alt="image"
                 data-reactied="266>"
               />
             </Col>
@@ -197,6 +205,7 @@ function Ivis() {
                 src={process.env.PUBLIC_URL + "/image/rootshoetel.jpg"}
                 width="300"
                 height="250"
+                alt="image"
                 data-reactied="266>"
               />
             </Col>
@@ -205,6 +214,7 @@ function Ivis() {
                 src={process.env.PUBLIC_URL + "/image2/ibisosaka.jpg"}
                 width="300"
                 height="250"
+                alt="image"
                 data-reactied="266>"
               />
             </Col>
