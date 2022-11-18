@@ -6,11 +6,17 @@ import { Container } from 'react-bootstrap';
 function Home() {
     return (
         <Container
-        fluid
-        style={{backgroundImage:"url(image3/backgroundImage1.jpg)",
+         fluid
+      
+        style={{backgroundImage:"url(image2/realback.jpg)",
         backgroundRepeat : "no-repeat",
-        backgroundSize : "cover"
-    }} 
+        backgroundSize: "cover",
+        marginLeft: "0px",
+        marginRight: "0px",
+            paddingLeft: "100px",
+            paddingRight:"100px"
+        
+    }}
         >
             <IntroduceOsaka />
             <IntroduceFestival />

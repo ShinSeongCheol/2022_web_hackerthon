@@ -3,10 +3,25 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { Carousel } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import styled from "styled-components";
+import { useState, useEffect } from "react";
 
 function ResponsiveAutoExample() {
     return (
-        <Container>
+        <Container fluid
+      
+        style={{backgroundImage:"url(image2/realback.jpg)",
+        backgroundRepeat : "no-repeat",
+        backgroundSize: "cover",
+        marginLeft: "0px",
+        marginRight: "0px",
+            paddingLeft: "100px",
+            paddingRight:"100px"
+        
+    }}
+        >
+            
             <h3
                 style={{
                     marginTop: "20px",
@@ -23,18 +38,20 @@ function ResponsiveAutoExample() {
                         }}
                     >
                         <Col>
+                        <Link to="/Motomura" style={{textDecoration: 'none', color: 'black' }} >
                             <img
                                 src={
                                     process.env.PUBLIC_URL +
                                     "/image/gyukatsu.jpg"
                                 }
-                                alt="hi"
                                 width="300"
                                 height="250"
                                 data-reactied="266"
-                            />
+                                />
+                                </Link>
                         </Col>
                         <Col>
+                        <Link to="/Motomura" style={{textDecoration: 'none', color: 'black' }} >
                             <h4
                                 style={{
                                     marginTop: "10px",
@@ -54,7 +71,8 @@ function ResponsiveAutoExample() {
                             <div>라스트 오더: 22:00</div>
                             <div>가격: 규카츠 130g 1400엔</div>
                             <div>규카츠 130g 추가는 800엔 </div>
-                            <div>(현금결제만 가능)</div>
+                                <div>(현금결제만 가능)</div>
+                            </Link>
                         </Col>
 
                         <Col>
@@ -63,7 +81,6 @@ function ResponsiveAutoExample() {
                                     process.env.PUBLIC_URL + "/image/ramen.png"
                                 }
                                 width="300"
-                                alt="hi"
                                 height="250"
                                 data-reactied="266>"
                             />
@@ -88,7 +105,7 @@ function ResponsiveAutoExample() {
                             </div>
                             <div>
                                 매장소개 킨류라멘, 금룡라면은 도톤보리
-                                중심거리에도 있고, 도톤보리에서...
+                                ...
                             </div>
                         </Col>
                     </Row>
@@ -104,7 +121,6 @@ function ResponsiveAutoExample() {
                                     process.env.PUBLIC_URL +
                                     "/image2/ichran.jpg"
                                 }
-                                alt="hi"
                                 width="300"
                                 height="250"
                                 data-reactied="266>"
@@ -133,8 +149,7 @@ function ResponsiveAutoExample() {
                             <div>
                                 설명: 이치란 라멘의 메뉴는 돈코츠 라멘 하나
                                 뿐입니다. 오랜시간 고아서 만든 육수는 한국인
-                                입맛에도 잘 맞아 인기가 많습니다. 토핑과 맛
-                                조절을 요청하는...
+                                입맛에도 잘 맞아 인기가 많습니다...
                             </div>
                         </Col>
                         <Col>
@@ -144,7 +159,6 @@ function ResponsiveAutoExample() {
                                     process.env.PUBLIC_URL + "/image2/jibo.jpg"
                                 }
                                 width="300"
-                                alt="hi"
                                 height="250"
                                 data-reactied="266>"
                             />
@@ -187,13 +201,13 @@ function ResponsiveAutoExample() {
                                     process.env.PUBLIC_URL +
                                     "/image2/moeyomenske.png"
                                 }
-                                alt="hi"
                                 width="300"
                                 height="250"
                                 data-reactied="266>"
                             />
                         </Col>
                         <Col>
+                        <Link to="/Moeyomenske" style={{textDecoration: 'none', color: 'black' }} >
                             <h4
                                 style={{
                                     marginTop: "10px",
@@ -204,7 +218,7 @@ function ResponsiveAutoExample() {
                             <div>
                                 주소: 5 Chome-12-21 Fukushima, Fukushima Ward,
                                 Osaka, 553-0003 일본
-                            </div>
+                                </div>
                             <div
                                 style={{
                                     marginTop: "10px",
@@ -217,10 +231,9 @@ function ResponsiveAutoExample() {
                                 16시 마감)
                             </div>
                             <div>
-                                오사카 현지인들을 줄 세우는 모에요멘스케는
-                                오리와 닭을 활용해 깔끔하면서도 깊은 육수를
-                                뽑아내는 걸로 유명하다...{" "}
-                            </div>
+                                오사카 현지인들을 줄 세우는 모에요멘스케
+                                </div>
+                            </Link>
                         </Col>
 
                         <Col>
@@ -229,7 +242,6 @@ function ResponsiveAutoExample() {
                                     process.env.PUBLIC_URL +
                                     "/image2/torihachi.png"
                                 }
-                                alt="hi"
                                 width="300"
                                 height="250"
                                 data-reactied="266>"
@@ -257,8 +269,7 @@ function ResponsiveAutoExample() {
                             <div>영업시간: 17:00~1:00(목요일 휴무)</div>
                             <div>
                                 때로 미식을 위해 먼 길을 떠나는 여행도 필요한
-                                법. 오사카에서는 닭 전문점 토리하치를 위해 조금
-                                외진 곳으로 간다...{" "}
+                                법. 오사카에서는 닭 전문점 ...{" "}
                             </div>
                         </Col>
                     </Row>
@@ -275,7 +286,6 @@ function ResponsiveAutoExample() {
                                     process.env.PUBLIC_URL +
                                     "/image2/yahmakarayah.png"
                                 }
-                                alt="hi"
                                 width="300"
                                 height="250"
                                 data-reactied="266>"
@@ -306,8 +316,7 @@ function ResponsiveAutoExample() {
                             </div>
                             <div>
                                 도쿄를 주 무대로 하는 고로상이 오사카에 떴다.
-                                고독한 미식가 시리즈에서 흔하지 않은 오사카
-                                에피소드라 더 기억에...{" "}
+                                고독한 미식가 시리즈에서 흔하지...{" "}
                             </div>
                         </Col>
 
@@ -317,7 +326,6 @@ function ResponsiveAutoExample() {
                                     process.env.PUBLIC_URL +
                                     "/image2/nakatani.png"
                                 }
-                                alt="hi"
                                 width="300"
                                 height="250"
                                 data-reactied="266>"
@@ -346,8 +354,7 @@ function ResponsiveAutoExample() {
                             <div>
                                 타베로그 오사카 스위트 부분에서 랭킹 5위(평점
                                 3.79)인 나카타니테이는 초콜릿을 잘 다루는 가게로
-                                유명합니다. 다니마치큐초메역에서 걸어서 5분이면
-                                갈 수...{" "}
+                                유명합니다...{" "}
                             </div>
                         </Col>
                     </Row>
@@ -361,18 +368,20 @@ function ResponsiveAutoExample() {
                         }}
                     >
                         <Col>
+                        <Link to="/Heijoen" style={{textDecoration: 'none', color: 'black' }} >
                             <img
                                 src={
                                     process.env.PUBLIC_URL +
                                     "/image2/heivoen.png"
                                 }
-                                alt="hi"
                                 width="300"
                                 height="250"
                                 data-reactied="266>"
-                            />
+                                />
+                                </Link>
                         </Col>
                         <Col>
+                        <Link to="/Heijoen" style={{textDecoration: 'none', color: 'black' }} >
                             <h4
                                 style={{
                                     marginTop: "10px",
@@ -395,9 +404,9 @@ function ResponsiveAutoExample() {
                             <div>
                                 오코노미야끼와 타코야끼, 라멘 등 오사카에서
                                 맛봐야 할 음식은 다양한데, 야끼니쿠도 빠트릴 수
-                                없습니다. 직접 고기를 구워 먹는 문화는 한국이
-                                단연 으뜸...
-                            </div>
+                                없습니다. 직접 고기를 ...
+                                </div>
+                                </Link>
                         </Col>
 
                         <Col>
@@ -406,7 +415,6 @@ function ResponsiveAutoExample() {
                                     process.env.PUBLIC_URL +
                                     "/image2/hukutaro.png"
                                 }
-                                alt="hi"
                                 width="300"
                                 height="250"
                                 data-reactied="266>"
@@ -436,8 +444,7 @@ function ResponsiveAutoExample() {
                                 영업시간: 17:00~24:00(평일) 12:00~24:00(주말)
                             </div>
                             <div>
-                                오사카 난바근처 오코노미야키와 야끼소바 전문점인
-                                후쿠타로는 웨이팅...
+                                오사카 난바근처 오코노미야키와 야끼소바...
                             </div>
                         </Col>
                     </Row>
@@ -454,7 +461,6 @@ function ResponsiveAutoExample() {
                                     process.env.PUBLIC_URL +
                                     "/image/osakasang.jpg"
                                 }
-                                alt="hi"
                                 width="300"
                                 height="250"
                                 data-reactied="266>"
@@ -492,7 +498,6 @@ function ResponsiveAutoExample() {
                                     process.env.PUBLIC_URL +
                                     "/image2/harukoma.jpg"
                                 }
-                                alt="hi"
                                 width="300"
                                 height="250"
                                 data-reactied="266>"
@@ -520,9 +525,7 @@ function ResponsiveAutoExample() {
                             </div>
                             <div>영업시간: 11:00~21:30(화요일 휴무)</div>
                             <div>
-                                도톰한 초밥과 뛰어난 맛 거기에 엄청나게 저렴한
-                                가격으로 인기인 곳입니다. 시내와 약간 떨어져
-                                있어 현지인의 비율이...
+                                도톰한 초밥과 뛰어난 맛 거기에 엄청나게 ...
                             </div>
                         </Col>
                     </Row>

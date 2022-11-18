@@ -24,18 +24,17 @@ class IntroduceFestival extends React.Component {
                     <Row xs={1} md={2} lg={4} className="g-4">
                         <Col>
                             <Card>
-                                <Card.Img variant="top" src="festival/1.jpeg" />
+                                <Card.Img variant="top" src="image2\omiztori.jpg" style= {{height: "230px"}} />
                                 <Card.Body>
                                     <Card.Title>
-                                        텐마텐진 우메 마츠리
+                                    오미즈토리 마츠리
                                     </Card.Title>
                                     <Card.Text>
-                                        텐만구의 상징인 매화 축제로 만개하는
-                                        아름다운 매화꽃을 볼 수 있는 축제입니다.
+                                    날짜 : 매년 3월 1-14일<br></br> 장소 : 도다이지
                                     </Card.Text>
-                                    <Link to="/login">
-                                        <Button variant="primary">
-                                            Go somewhere
+                                    <Link to="/Omiztori">
+                                        <Button variant="outline-dark">
+                                            더보기
                                         </Button>
                                     </Link>
                                 </Card.Body>
@@ -43,18 +42,17 @@ class IntroduceFestival extends React.Component {
                         </Col>
                         <Col>
                             <Card>
-                                <Card.Img variant="top" src="festival/1.jpeg" />
+                                <Card.Img variant="top" src="image2\sacurano.jpg" style= {{height: "230px"}}/>
                                 <Card.Body>
                                     <Card.Title>
-                                        텐마텐진 우메 마츠리
+                                      사쿠라노 도리누케
                                     </Card.Title>
                                     <Card.Text>
-                                        텐만구의 상징인 매화 축제로 만개하는
-                                        아름다운 매화꽃을 볼 수 있는 축제입니다.
+                                    날짜 : 매년 4월 초에서 중순<br></br>장소 : 오사카 조폐 박물관 구내
                                     </Card.Text>
-                                    <Link to="/login">
-                                        <Button variant="primary">
-                                            Go somewhere
+                                    <Link to="/Sacurano">
+                                        <Button variant="outline-dark">
+                                            더보기
                                         </Button>
                                     </Link>
                                 </Card.Body>
@@ -62,18 +60,17 @@ class IntroduceFestival extends React.Component {
                         </Col>
                         <Col>
                             <Card>
-                                <Card.Img variant="top" src="festival/1.jpeg" />
+                                <Card.Img variant="top" src="image2\smiyorimachuri.jpg" style= {{height: "230px"}}/>
                                 <Card.Body>
                                     <Card.Title>
-                                        텐마텐진 우메 마츠리
+                                    스미요시 마츠리
                                     </Card.Title>
                                     <Card.Text>
-                                        텐만구의 상징인 매화 축제로 만개하는
-                                        아름다운 매화꽃을 볼 수 있는 축제입니다.
+                                    날짜 : 매년 7월 30일 - 8월 1일<br></br>장소 : 스미요시 신사
                                     </Card.Text>
-                                    <Link to="/login">
-                                        <Button variant="primary">
-                                            Go somewhere
+                                    <Link to="/Smiyorimachuri">
+                                        <Button variant="outline-dark">
+                                            더보기
                                         </Button>
                                     </Link>
                                 </Card.Body>
@@ -81,18 +78,17 @@ class IntroduceFestival extends React.Component {
                         </Col>
                         <Col>
                             <Card>
-                                <Card.Img variant="top" src="festival/1.jpeg" />
+                                <Card.Img variant="top" src="image2\chrismas.jpg" style= {{height: "230px"}}/>
                                 <Card.Body>
                                     <Card.Title>
-                                        텐마텐진 우메 마츠리
+                                    유니버설 크리스마스 축제
                                     </Card.Title>
                                     <Card.Text>
-                                        텐만구의 상징인 매화 축제로 만개하는
-                                        아름다운 매화꽃을 볼 수 있는 축제입니다.
+                                    날짜 : 11월 11일 -  1월 9일<br></br>장소 : 유니버설 스튜디오 재팬
                                     </Card.Text>
-                                    <Link to="/login">
-                                        <Button variant="primary">
-                                            Go somewhere
+                                    <Link to="/Universalport">
+                                        <Button variant="outline-dark">
+                                            더보기
                                         </Button>
                                     </Link>
                                 </Card.Body>

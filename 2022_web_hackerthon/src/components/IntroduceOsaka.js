@@ -48,7 +48,7 @@ class IntroduceOsaka extends React.Component {
                             <Row>
                                 <Col className="ratio ratio-16x9">
                                     <Image
-                                        src="image2/aburia.png"
+                                        src="image\osaka.jpg"
                                         style={{
                                             padding: "5px",
                                             borderRadius: "20px",
@@ -65,7 +65,7 @@ class IntroduceOsaka extends React.Component {
 
                                         <a href="place">
                                             <Button
-                                                variant="outline-info"
+                                                variant="outline-dark"
                                                 style={{
                                                     width: "70%",
                                                     height: "25%",
@@ -82,7 +82,7 @@ class IntroduceOsaka extends React.Component {
                                     style={{ width: "50%", height: "50%" }}
                                 >
                                     <Image
-                                        src="image2/aburia.png"
+                                        src="/image/gyukatsu.jpg"
                                         style={{
                                             padding: "5px",
                                             borderRadius: "20px",
@@ -93,11 +93,11 @@ class IntroduceOsaka extends React.Component {
                                         className="text-center"
                                         style={{ marginTop: "15%" }}
                                     >
-                                        <h4>맛도리</h4>
+                                        <h4 style={{ color: "white" }}>맛도리</h4>
 
                                         <a href="food">
                                             <Button
-                                                variant="outline-info"
+                                                variant="outline-dark"
                                                 style={{
                                                     width: "70%",
                                                     height: "25%",
@@ -116,7 +116,7 @@ class IntroduceOsaka extends React.Component {
                                     style={{ width: "50%", height: "50%" }}
                                 >
                                     <Image
-                                        src="image2/aburia.png"
+                                        src="/image2/omiztori.jpg"
                                         style={{
                                             padding: "5px",
                                             borderRadius: "20px",
@@ -127,11 +127,11 @@ class IntroduceOsaka extends React.Component {
                                         className="text-center"
                                         style={{ marginTop: "15%" }}
                                     >
-                                        <h4>축제</h4>
+                                        <h4 style={{ color: "white" }}>축제</h4>
 
                                         <a href="festival">
                                             <Button
-                                                variant="outline-info"
+                                                variant="outline-dark"
                                                 style={{
                                                     width: "70%",
                                                     height: "25%",
@@ -148,7 +148,7 @@ class IntroduceOsaka extends React.Component {
                                     style={{ width: "50%", height: "50%" }}
                                 >
                                     <Image
-                                        src="image2/aburia.png"
+                                        src="image\arthotel.jpg"
                                         style={{
                                             padding: "5px",
                                             borderRadius: "20px",
@@ -159,11 +159,11 @@ class IntroduceOsaka extends React.Component {
                                         className="text-center"
                                         style={{ marginTop: "15%" }}
                                     >
-                                        <h4 style={{ width: "100%" }}>숙소</h4>
+                                        <h4 style={{ color: "white" }}>숙소</h4>
 
                                         <a href="hotel">
                                             <Button
-                                                variant="outline-info"
+                                                variant="outline-dark"
                                                 style={{
                                                     width: "70%",
                                                     height: "25%",
