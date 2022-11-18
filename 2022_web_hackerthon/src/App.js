@@ -40,7 +40,7 @@ import Universalport from "./screens/festival/Universalport";
 //gita
 import NavBarElements from "./component/Navbar/NavBarElements";
 import Carousel from "react-bootstrap/Carousel";
-import Test from "./screens/Test";
+
 
 function App() {
     return (
