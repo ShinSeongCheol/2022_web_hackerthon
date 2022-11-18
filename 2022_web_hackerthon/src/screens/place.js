@@ -273,7 +273,7 @@ function ResponsiveAutoExample() {
                                 </Link>
                                 
                         </Col>
-                        alt="place"
+
                         <Col>
                         <Link to="/jivri" style={{textDecoration: 'none', color: 'black' }} >
                             <h4
